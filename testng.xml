@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.novoproso.utilities.ExtentListenerClass"></listener>
+	</listeners>
+	<test name="navlinksTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickAboutUsLinkTest"></include>
+					<include name="clickProductsLinkTest"></include>
+					<include name="clickServicesLinkTest"></include>
+					<include name="clickCareersLinkTest"></include>
+					<include name="clickContactLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="navlinksHoverTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="hoverAboutUsLinkTest"></include>
+					<include name="hoverProductsLinkTest"></include>
+					<include name="hoverServicesLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="HoverDropdownClickSubLinksTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="hoverClickCsrLinkTest"></include>
+					<include name="hoverClickLocalSportsLinkTest"></include>
+					<include name="hoverClickDANLinkTest"></include>
+					<include name="hoverClickBDIngensionLinkTest"></include>
+					<include name="hoverClickIdeaLinkTest"></include>
+					<include name="hoverClickSDLinkTest"></include>
+					<include name="hoverClickITStaffLinkTest"></include>
+					<include name="hoverClickCloudLinkTest"></include>
+					<include name="hoverClickAILinkTest"></include>
+					<include name="hoverClickBigDataLinkTest"></include>
+					<include name="hoverClickHRALinkTest"></include>
+					<include name="hoverClickITPMLinkTest"></include>
+					<include name="hoverClickNetworkLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="homelinkTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickHomeLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="AboutUsLinkTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickAboutUsLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="productslinkTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickProductsLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="serviceslinkTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickServicesLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="careerslinkTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickCareersLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="contactlinkTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickContactLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="HomePageSectionsTest">
+		<classes>
+			<class name="com.novoproso.testCases.homePageTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="aboutUsSectionTest"></include>
+					<include name="productsSectionTest"></include>
+					<include name="servicesSectionTest"></include>
+					<include name="careersSectionTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
