@@ -12,7 +12,7 @@ import com.novoproso.utilities.ReadConfig;
 public class navBarLinksTest extends BaseClass {
 
 	@Test
-	public void clickStartNowButtonTest() {
+	public void clickStartNowButtonTest() throws InterruptedException {
 
 		ReadConfig readConfig = new ReadConfig();
 
@@ -23,6 +23,12 @@ public class navBarLinksTest extends BaseClass {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		Header header = new Header(driver, wait);
 
+		HomePage homePage = new HomePage(driver, wait);
+		wait.until(d -> homePage.isCookieVisible());
+		Thread.sleep(1000);
+		homePage.closeCookieButton();
+		logger.info("cookie button is closed!");
+		
 		wait.until(d -> header.isStartNowVisible());
 		
 		header.clickStartNowButton();

@@ -4,16 +4,15 @@
   <listeners>
     <listener class-name="com.novoproso.utilities.ExtentListenerClass"/>
   </listeners>
-  <test thread-count="5" name="HomePageSectionsTest(failed)">
+  <test thread-count="5" name="ContactFormDataDrivenTest(failed)">
     <classes>
-      <class name="com.novoproso.testCases.homePageTest">
+      <class name="com.novoproso.testCases.contactDataDrivenTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
           <include name="clickStartNowButtonTest"/>
-          <include name="careersSectionTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.novoproso.testCases.homePageTest -->
+      </class> <!-- com.novoproso.testCases.contactDataDrivenTest -->
     </classes>
-  </test> <!-- HomePageSectionsTest(failed) -->
+  </test> <!-- ContactFormDataDrivenTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

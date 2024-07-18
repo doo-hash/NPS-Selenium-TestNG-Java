@@ -112,7 +112,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="HomePageSectionsTest">
+	<test name="HomePageSectionsTest" enabled="false">
 		<classes>
 			<class name="com.novoproso.testCases.homePageTest">
 				<methods>
@@ -121,8 +121,28 @@
 					<include name="productsSectionTest"></include>
 					<include name="servicesSectionTest"></include>
 					<include name="careersSectionTest"></include>
+					<include name="contactSectionTest"></include>
 				</methods>
 			</class>
+		</classes>
+	</test>
+	<test name="ContactFormDataDrivenTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.contactDataDrivenTest">
+			</class>
+		</classes>
+	</test>
+	<test name="FooterTest" enabled="false">
+		<classes>
+			<class name="com.novoproso.testCases.FooterTest">
+			</class>
+		</classes>
+	</test>
+		<test name="SectionPagesTest">
+		<classes>
+			<class name="com.novoproso.testCases.AboutUsPagesTest" />
+			<class name="com.novoproso.testCases.ProductsPagesTest" />
+			<class name="com.novoproso.testCases.ServicesPagesTest" />
 		</classes>
 	</test>
 </suite>

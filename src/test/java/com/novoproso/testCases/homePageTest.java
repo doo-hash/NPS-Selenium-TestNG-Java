@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -22,7 +22,7 @@ import com.novoproso.utilities.ReadConfig;
 public class homePageTest extends BaseClass {
 
 	@Test
-	public void clickStartNowButtonTest() {
+	public void clickStartNowButtonTest() throws InterruptedException {
 
 		ReadConfig readConfig = new ReadConfig();
 
@@ -33,6 +33,13 @@ public class homePageTest extends BaseClass {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		Header header = new Header(driver, wait);
 
+		HomePage homePage = new HomePage(driver, wait);
+		wait.until(d -> homePage.isCookieVisible());
+		Thread.sleep(1000);
+		homePage.closeCookieButton();
+		logger.info("cookie button is closed!");
+
+		
 		wait.until(d -> header.isStartNowVisible());
 		
 		header.clickStartNowButton();
@@ -269,17 +276,23 @@ public class homePageTest extends BaseClass {
 			
 			homePage.closeCareerDetailsModel(i);
 		}
-		logger.info("each product content is displayed!");
+		logger.info("each career content is displayed!");
 
 
 	}
 	
 	@Test(dependsOnMethods = "clickStartNowButtonTest")
-	public void clickContactLinkTest() {
+	public void contactSectionTest() throws InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		Actions actions = new Actions(driver);
 		Header header = new Header(driver, wait);
 		HomePage homePage = new HomePage(driver, wait);
+
+//		homePage.isCookieVisible();
+		Thread.sleep(2000);
+//		homePage.closeCookieButton();
+//		logger.info("cookie button is closed!");
 		
 		header.clickContactLink();
 		logger.info("contact us link is clicked!");
@@ -287,6 +300,61 @@ public class homePageTest extends BaseClass {
 		wait.until(d -> homePage.isContactSectionVisible());
 		logger.info("contact us section is displayed!");
 
+		wait.until(d -> homePage.isContactSectionHeadingVisible());
+		System.out.println(homePage.getContactHeading());
+		logger.info("contact us section is displayed!");
+		
+		System.out.println(homePage.getContactSubHeading());
+		logger.info("contact us sub heading is displayed!");
+	
+		homePage.getContactFormBlock();
+		homePage.getContactAddressBlock();
+		logger.info("contact us form and address block are displayed!");
+		
+		homePage.getContactAddress();
+		logger.info("contact us address is displayed!");
+		
+		homePage.getContactNumber();
+		logger.info("contact us number is displayed!");
+		
+		homePage.getContactEmailAddress();
+		logger.info("contact us email address is displayed!");
+		
+		WebElement mapIframe = driver.findElement(By.xpath("//div[contains(@class, 'contact-info')]/ul/li/iframe"));
+		logger.info("go to map iframe!");
+		Thread.sleep(2000);
+		driver.switchTo().frame(mapIframe);
+//		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(mapIframe));
+		logger.info("switched to map iframe!");
+		
+		actions.moveByOffset(150, 150);
+		logger.info("move by some offset!");
+
+		actions.clickAndHold().moveByOffset(30, 30);
+		logger.info("click and  hold then move by some offset!");
+		actions.release();
+		
+		homePage.getLocationAddress();
+		logger.info("location address found!");
+
+		homePage.clickMapLocationLink();
+		logger.info("view larger map link clicked!");
+
+		Object[] windowHandles = driver.getWindowHandles().toArray();
+		driver.switchTo().window(windowHandles[1].toString());
+		wait.until(ExpectedConditions.urlToBe("https://www.google.com/maps/place/Novo+ProSo,+Inc./@38.773721,-93.718164,16z/data=!4m6!3m5!1s0x87c3e3c7a0f17e3f:0x473a9fd575ad87a5!8m2!3d38.773721!4d-93.7181643!16s%2Fg%2F11fl5qn7dn?hl=en&entry=ttu"));
+		logger.info(driver.getCurrentUrl());
+		logger.info("switched to map page");
+
+		driver.close();
+		logger.info("closed map page");
+
+		driver.switchTo().window(windowHandles[0].toString());
+		wait.until(ExpectedConditions.urlToBe("https://novoproso.com/"));
+		logger.info(driver.getCurrentUrl());
+		logger.info("switched to main page");
+
+		
 	}
 	
 }

@@ -128,10 +128,56 @@ public class HomePage {
 	
 	@FindBy(xpath = "//div[contains(@id, 'contact-us')]//h2")
 	WebElement contactUsSectionHeading;
-		
+
+	@FindBy(xpath = "//div[contains(@id, 'contact-us')]//p")
+	WebElement contactUsSubHeading;
+
+	@FindBy(xpath = "(//div[contains(@class, 'contact-form')]/div/div)[1]")
+	WebElement contactFomrBlock;
+	
+	@FindBy(xpath = "(//div[contains(@class, 'contact-form')]/div/div)[2]")
+	WebElement addressBlock;
+	
+	@FindBy(xpath = "(//div[contains(@class, 'contact-info')]/ul/li)[1]")
+	WebElement contactAddress;
+	
+	@FindBy(xpath = "(//div[contains(@class, 'contact-info')]/ul/li)[2]")
+	WebElement contactNumber;
+	
+	@FindBy(xpath = "(//div[contains(@class, 'contact-info')]/ul/li)[3]")
+	WebElement contactEmailAddress;
+	
+	@FindBy(xpath = "//div[contains(@class, 'contact-info')]/ul/li/iframe")
+	WebElement mapElement;
+	
+	@FindBy(xpath = "//*[@id=\"mapDiv\"]/div/div[3]/div[3]/div/div")
+	WebElement mapLocationAddress;
+
+	@FindBy(xpath = "//div[contains(@class,'google-maps-link')]/a")
+	WebElement mapLocationLink;
+	
+	@FindBy(xpath = "//input[contains(@name,'name')]")
+	WebElement nameInput;
+	
+	@FindBy(xpath = "//input[contains(@name,'email')]")
+	WebElement emailInput;
+	
+	@FindBy(xpath = "//input[contains(@name,'subject')]")
+	WebElement subjectInput;
+	
+	@FindBy(xpath = "//textarea[contains(@name,'message')]")
+	WebElement messageInput;
+	
+	@FindBy(className = "btn-submit")
+	WebElement submitButton;
+	
+	@FindBy(className = "form_status")
+	WebElement successMessage;
+	
 	@FindBy(xpath = "//div[contains(@class,'cookie-container')]/p/button")
 	WebElement cookieButton;
 	
+		
 	//Constructor
 	public HomePage(WebDriver driver, WebDriverWait wait) {
 		this.driver = driver;
@@ -417,6 +463,103 @@ public class HomePage {
 	public String getContactHeading() {
 		highlightElement.highlightElement(driver, contactUsSectionHeading);
 		return contactUsSectionHeading.getText();
+	}
+	
+	//get contact sub heading
+	public String getContactSubHeading() {
+		highlightElement.highlightElement(driver, contactUsSubHeading);
+		return contactUsSubHeading.getText();
+	}
+	
+	//highlight contact form block
+	public void getContactFormBlock() {
+		highlightElement.highlightElement(driver, contactFomrBlock);
+	}
+	
+	//highlight contact address block
+	public void getContactAddressBlock() {
+		highlightElement.highlightElement(driver, addressBlock);
+	}
+	
+	//get contact address
+	public String getContactAddress() {
+		highlightElement.highlightElement(driver, contactAddress);
+		return contactAddress.getText();
+	}
+	
+	//get contact number
+	public String getContactNumber() {
+		highlightElement.highlightElement(driver, contactNumber);
+		return contactNumber.getText();
+	}
+	
+	//get contact email address
+	public String getContactEmailAddress() {
+		highlightElement.highlightElement(driver, contactEmailAddress);
+		return contactEmailAddress.getText();
+	}
+	
+	//get map element
+	public WebElement getMapElement() {
+		wait.until(d -> mapElement.isDisplayed());
+		highlightElement.highlightElement(driver, mapElement);
+		return contactAddress;
+	}
+	
+	//get map location address
+	public String getLocationAddress() {
+		highlightElement.highlightElement(driver, mapLocationAddress);
+		return mapLocationAddress.getText();
+	}
+	
+	//click view larger map link
+	public void clickMapLocationLink() {
+		executor.executeScript("arguments[0].scrollIntoView();", mapLocationLink);
+		wait.until(ExpectedConditions.visibilityOf(mapLocationLink));
+		hoverScript.mouseHoverJScript(mapLocationLink, driver);
+		mapLocationLink.click();
+	}
+	
+	//enter name into contact form input
+	public void setName(String name) {
+		highlightElement.highlightElement(driver, nameInput);
+		nameInput.sendKeys(name);
+	}
+	
+	//enter email into contact form input
+	public void setEmail(String email) {
+		highlightElement.highlightElement(driver, emailInput);
+		emailInput.sendKeys(email);
+	}
+	
+	//enter subject into contact form input
+	public void setSubject(String subject) {
+		highlightElement.highlightElement(driver, subjectInput);
+		subjectInput.sendKeys(subject);
+	}
+	
+	//enter message into contact form input
+	public void setMessage(String message) {
+		highlightElement.highlightElement(driver, messageInput);
+		messageInput.sendKeys(message);
+	}
+	
+	//click submit button in contact form 
+	public void clickSubmitButton() {		
+		executor.executeScript("arguments[0].scrollIntoView();", submitButton);
+		wait.until(d -> submitButton.isDisplayed());
+		hoverScript.mouseHoverJScript(submitButton, driver);
+		highlightElement.highlightElement(driver, submitButton);
+		submitButton.click();
+	}
+	
+	//get success message contact form
+	public String getSuccessMessage() {
+		executor.executeScript("arguments[0].scrollIntoView();", successMessage);
+		executor.executeScript("window.scrollBy(0,150)");
+		wait.until(d -> successMessage.isDisplayed());				
+		highlightElement.highlightElement(driver, messageInput);
+		return successMessage.getText();
 	}
 	
 }

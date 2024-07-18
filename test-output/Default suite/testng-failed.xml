@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.novoproso.testCases.homePageTest">
+      <class name="com.novoproso.testCases.ProductsPagesTest">
         <methods>
-          <include name="clickCareersLinkTest"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
           <include name="clickStartNowButtonTest"/>
+          <include name="tearDown"/>
+          <include name="hoverClickBDIngensionLinkTest"/>
+          <include name="setup"/>
+          <include name="hoverClickDANLinkTest"/>
         </methods>
-      </class> <!-- com.novoproso.testCases.homePageTest -->
+      </class> <!-- com.novoproso.testCases.ProductsPagesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
