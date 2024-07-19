@@ -1,101 +1,451 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="62" passed="62" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-18T19:43:03 IST" name="Suite" finished-at="2024-07-18T19:44:58 IST" duration-ms="114374">
+  <suite started-at="2024-07-19T12:29:01 IST" name="Suite" finished-at="2024-07-19T12:39:06 IST" duration-ms="605186">
     <groups>
     </groups>
-    <test started-at="2024-07-18T19:43:03 IST" name="SectionPagesTest" finished-at="2024-07-18T19:44:58 IST" duration-ms="114374">
-      <class name="com.novoproso.testCases.ProductsPagesTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@445b295b]" started-at="2024-07-18T19:43:34 IST" name="setup" finished-at="2024-07-18T19:43:48 IST" duration-ms="14051" status="PASS">
+    <test started-at="2024-07-19T12:29:01 IST" name="navlinksTest" finished-at="2024-07-19T12:29:26 IST" duration-ms="25444">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:01 IST" name="setup" finished-at="2024-07-19T12:29:18 IST" duration-ms="16879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@445b295b]" started-at="2024-07-18T19:43:48 IST" name="clickStartNowButtonTest" finished-at="2024-07-18T19:43:51 IST" duration-ms="2925" status="PASS">
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:18 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:29:23 IST" duration-ms="4556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickStartNowButtonTest -->
-        <test-method signature="hoverClickBDIngensionLinkTest()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@445b295b]" started-at="2024-07-18T19:43:51 IST" name="hoverClickBDIngensionLinkTest" finished-at="2024-07-18T19:43:57 IST" depends-on-methods="com.novoproso.testCases.ProductsPagesTest.clickStartNowButtonTest" duration-ms="6550" status="PASS">
+        <test-method signature="clickAboutUsLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:23 IST" name="clickAboutUsLinkTest" finished-at="2024-07-19T12:29:23 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hoverClickBDIngensionLinkTest -->
-        <test-method signature="hoverClickDANLinkTest()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@445b295b]" started-at="2024-07-18T19:43:57 IST" name="hoverClickDANLinkTest" finished-at="2024-07-18T19:44:01 IST" depends-on-methods="com.novoproso.testCases.ProductsPagesTest.clickStartNowButtonTest" duration-ms="3768" status="PASS">
+        </test-method> <!-- clickAboutUsLinkTest -->
+        <test-method signature="clickProductsLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:23 IST" name="clickProductsLinkTest" finished-at="2024-07-19T12:29:23 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProductsLinkTest -->
+        <test-method signature="clickServicesLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:23 IST" name="clickServicesLinkTest" finished-at="2024-07-19T12:29:24 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickServicesLinkTest -->
+        <test-method signature="clickCareersLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:24 IST" name="clickCareersLinkTest" finished-at="2024-07-19T12:29:24 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCareersLinkTest -->
+        <test-method signature="clickContactLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:24 IST" name="clickContactLinkTest" finished-at="2024-07-19T12:29:24 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5c671d7f]" started-at="2024-07-19T12:29:25 IST" name="tearDown" finished-at="2024-07-19T12:29:26 IST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- navlinksTest -->
+    <test started-at="2024-07-19T12:29:27 IST" name="navlinksHoverTest" finished-at="2024-07-19T12:30:21 IST" duration-ms="54197">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@69fb6037]" started-at="2024-07-19T12:29:27 IST" name="setup" finished-at="2024-07-19T12:30:12 IST" duration-ms="45413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@69fb6037]" started-at="2024-07-19T12:30:12 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:30:17 IST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="hoverAboutUsLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@69fb6037]" started-at="2024-07-19T12:30:17 IST" name="hoverAboutUsLinkTest" finished-at="2024-07-19T12:30:18 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverAboutUsLinkTest -->
+        <test-method signature="hoverProductsLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@69fb6037]" started-at="2024-07-19T12:30:18 IST" name="hoverProductsLinkTest" finished-at="2024-07-19T12:30:19 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverProductsLinkTest -->
+        <test-method signature="hoverServicesLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@69fb6037]" started-at="2024-07-19T12:30:19 IST" name="hoverServicesLinkTest" finished-at="2024-07-19T12:30:20 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverServicesLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@69fb6037]" started-at="2024-07-19T12:30:20 IST" name="tearDown" finished-at="2024-07-19T12:30:21 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- navlinksHoverTest -->
+    <test started-at="2024-07-19T12:30:21 IST" name="HoverDropdownClickSubLinksTest" finished-at="2024-07-19T12:31:23 IST" duration-ms="61178">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:30:21 IST" name="setup" finished-at="2024-07-19T12:30:56 IST" duration-ms="34144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:30:56 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:30:59 IST" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="hoverClickCsrLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:30:59 IST" name="hoverClickCsrLinkTest" finished-at="2024-07-19T12:31:01 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickCsrLinkTest -->
+        <test-method signature="hoverClickLocalSportsLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:01 IST" name="hoverClickLocalSportsLinkTest" finished-at="2024-07-19T12:31:03 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickLocalSportsLinkTest -->
+        <test-method signature="hoverClickDANLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:03 IST" name="hoverClickDANLinkTest" finished-at="2024-07-19T12:31:04 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickDANLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@445b295b]" started-at="2024-07-18T19:44:01 IST" name="tearDown" finished-at="2024-07-18T19:44:03 IST" duration-ms="1520" status="PASS">
+        <test-method signature="hoverClickBDIngensionLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:04 IST" name="hoverClickBDIngensionLinkTest" finished-at="2024-07-19T12:31:06 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickBDIngensionLinkTest -->
+        <test-method signature="hoverClickIdeaLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:06 IST" name="hoverClickIdeaLinkTest" finished-at="2024-07-19T12:31:07 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickIdeaLinkTest -->
+        <test-method signature="hoverClickSDLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:07 IST" name="hoverClickSDLinkTest" finished-at="2024-07-19T12:31:09 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickSDLinkTest -->
+        <test-method signature="hoverClickITStaffLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:09 IST" name="hoverClickITStaffLinkTest" finished-at="2024-07-19T12:31:10 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickITStaffLinkTest -->
+        <test-method signature="hoverClickCloudLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:10 IST" name="hoverClickCloudLinkTest" finished-at="2024-07-19T12:31:12 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickCloudLinkTest -->
+        <test-method signature="hoverClickAILinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:12 IST" name="hoverClickAILinkTest" finished-at="2024-07-19T12:31:13 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickAILinkTest -->
+        <test-method signature="hoverClickBigDataLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:13 IST" name="hoverClickBigDataLinkTest" finished-at="2024-07-19T12:31:15 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickBigDataLinkTest -->
+        <test-method signature="hoverClickHRALinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:15 IST" name="hoverClickHRALinkTest" finished-at="2024-07-19T12:31:17 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickHRALinkTest -->
+        <test-method signature="hoverClickITPMLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:17 IST" name="hoverClickITPMLinkTest" finished-at="2024-07-19T12:31:19 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickITPMLinkTest -->
+        <test-method signature="hoverClickNetworkLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:19 IST" name="hoverClickNetworkLinkTest" finished-at="2024-07-19T12:31:21 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickNetworkLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@87a85e1]" started-at="2024-07-19T12:31:21 IST" name="tearDown" finished-at="2024-07-19T12:31:23 IST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- HoverDropdownClickSubLinksTest -->
+    <test started-at="2024-07-19T12:31:23 IST" name="homelinkTest" finished-at="2024-07-19T12:31:42 IST" duration-ms="19416">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@609db43b]" started-at="2024-07-19T12:31:23 IST" name="setup" finished-at="2024-07-19T12:31:37 IST" duration-ms="13749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@609db43b]" started-at="2024-07-19T12:31:37 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:31:40 IST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="clickHomeLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@609db43b]" started-at="2024-07-19T12:31:40 IST" name="clickHomeLinkTest" finished-at="2024-07-19T12:31:41 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHomeLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@609db43b]" started-at="2024-07-19T12:31:41 IST" name="tearDown" finished-at="2024-07-19T12:31:42 IST" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- homelinkTest -->
+    <test started-at="2024-07-19T12:31:42 IST" name="AboutUsLinkTest" finished-at="2024-07-19T12:32:15 IST" duration-ms="32725">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@1329eff]" started-at="2024-07-19T12:31:42 IST" name="setup" finished-at="2024-07-19T12:32:09 IST" duration-ms="27122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@1329eff]" started-at="2024-07-19T12:32:09 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:32:13 IST" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="clickAboutUsLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@1329eff]" started-at="2024-07-19T12:32:13 IST" name="clickAboutUsLinkTest" finished-at="2024-07-19T12:32:13 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAboutUsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@1329eff]" started-at="2024-07-19T12:32:13 IST" name="tearDown" finished-at="2024-07-19T12:32:15 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- AboutUsLinkTest -->
+    <test started-at="2024-07-19T12:32:15 IST" name="productslinkTest" finished-at="2024-07-19T12:32:36 IST" duration-ms="21262">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@46fa7c39]" started-at="2024-07-19T12:32:15 IST" name="setup" finished-at="2024-07-19T12:32:31 IST" duration-ms="15463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@46fa7c39]" started-at="2024-07-19T12:32:31 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:32:34 IST" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="clickProductsLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@46fa7c39]" started-at="2024-07-19T12:32:34 IST" name="clickProductsLinkTest" finished-at="2024-07-19T12:32:35 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProductsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@46fa7c39]" started-at="2024-07-19T12:32:35 IST" name="tearDown" finished-at="2024-07-19T12:32:36 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- productslinkTest -->
+    <test started-at="2024-07-19T12:32:37 IST" name="serviceslinkTest" finished-at="2024-07-19T12:33:11 IST" duration-ms="34044">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5f683daf]" started-at="2024-07-19T12:32:37 IST" name="setup" finished-at="2024-07-19T12:33:05 IST" duration-ms="28312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5f683daf]" started-at="2024-07-19T12:33:05 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:33:09 IST" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="clickServicesLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5f683daf]" started-at="2024-07-19T12:33:09 IST" name="clickServicesLinkTest" finished-at="2024-07-19T12:33:09 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickServicesLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@5f683daf]" started-at="2024-07-19T12:33:09 IST" name="tearDown" finished-at="2024-07-19T12:33:11 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- serviceslinkTest -->
+    <test started-at="2024-07-19T12:33:11 IST" name="careerslinkTest" finished-at="2024-07-19T12:33:31 IST" duration-ms="20250">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@68e965f5]" started-at="2024-07-19T12:33:11 IST" name="setup" finished-at="2024-07-19T12:33:26 IST" duration-ms="14704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@68e965f5]" started-at="2024-07-19T12:33:26 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:33:29 IST" duration-ms="3610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="clickCareersLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@68e965f5]" started-at="2024-07-19T12:33:29 IST" name="clickCareersLinkTest" finished-at="2024-07-19T12:33:29 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCareersLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@68e965f5]" started-at="2024-07-19T12:33:29 IST" name="tearDown" finished-at="2024-07-19T12:33:31 IST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- careerslinkTest -->
+    <test started-at="2024-07-19T12:33:31 IST" name="contactlinkTest" finished-at="2024-07-19T12:33:57 IST" duration-ms="26145">
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@2cdd0d4b]" started-at="2024-07-19T12:33:31 IST" name="setup" finished-at="2024-07-19T12:33:52 IST" duration-ms="20452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@2cdd0d4b]" started-at="2024-07-19T12:33:52 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:33:55 IST" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="clickContactLinkTest()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@2cdd0d4b]" started-at="2024-07-19T12:33:55 IST" name="clickContactLinkTest" finished-at="2024-07-19T12:33:56 IST" depends-on-methods="com.novoproso.testCases.navBarLinksTest.clickStartNowButtonTest" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.navBarLinksTest@2cdd0d4b]" started-at="2024-07-19T12:33:56 IST" name="tearDown" finished-at="2024-07-19T12:33:57 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </test> <!-- contactlinkTest -->
+    <test started-at="2024-07-19T12:33:57 IST" name="HomePageSectionsTest" finished-at="2024-07-19T12:35:50 IST" duration-ms="112814">
+      <class name="com.novoproso.testCases.homePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:33:57 IST" name="setup" finished-at="2024-07-19T12:34:43 IST" duration-ms="45869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:34:43 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:34:47 IST" duration-ms="4041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="aboutUsSectionTest()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:34:47 IST" name="aboutUsSectionTest" finished-at="2024-07-19T12:34:48 IST" depends-on-methods="com.novoproso.testCases.homePageTest.clickStartNowButtonTest" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUsSectionTest -->
+        <test-method signature="productsSectionTest()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:34:48 IST" name="productsSectionTest" finished-at="2024-07-19T12:34:54 IST" depends-on-methods="com.novoproso.testCases.homePageTest.clickStartNowButtonTest" duration-ms="6111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsSectionTest -->
+        <test-method signature="servicesSectionTest()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:34:54 IST" name="servicesSectionTest" finished-at="2024-07-19T12:35:18 IST" depends-on-methods="com.novoproso.testCases.homePageTest.clickStartNowButtonTest" duration-ms="23732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesSectionTest -->
+        <test-method signature="careersSectionTest()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:35:18 IST" name="careersSectionTest" finished-at="2024-07-19T12:35:36 IST" depends-on-methods="com.novoproso.testCases.homePageTest.clickStartNowButtonTest" duration-ms="18214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careersSectionTest -->
+        <test-method signature="contactSectionTest()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:35:36 IST" name="contactSectionTest" finished-at="2024-07-19T12:35:48 IST" depends-on-methods="com.novoproso.testCases.homePageTest.clickStartNowButtonTest" duration-ms="11832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSectionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.homePageTest@37858383]" started-at="2024-07-19T12:35:48 IST" name="tearDown" finished-at="2024-07-19T12:35:50 IST" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.homePageTest -->
+    </test> <!-- HomePageSectionsTest -->
+    <test started-at="2024-07-19T12:35:50 IST" name="ContactFormDataDrivenTest" finished-at="2024-07-19T12:36:15 IST" duration-ms="24597">
+      <class name="com.novoproso.testCases.contactDataDrivenTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.contactDataDrivenTest@2abf4075]" started-at="2024-07-19T12:35:50 IST" name="setup" finished-at="2024-07-19T12:36:06 IST" duration-ms="16015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:1, instance:com.novoproso.testCases.contactDataDrivenTest@2abf4075]" started-at="2024-07-19T12:36:06 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:36:10 IST" duration-ms="3795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="contactFormTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.novoproso.testCases.contactDataDrivenTest@2abf4075]" started-at="2024-07-19T12:36:10 IST" name="contactFormTest" data-provider="ContactFormTestData" finished-at="2024-07-19T12:36:13 IST" duration-ms="3048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test subject]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test message]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactFormTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.contactDataDrivenTest@2abf4075]" started-at="2024-07-19T12:36:13 IST" name="tearDown" finished-at="2024-07-19T12:36:15 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.contactDataDrivenTest -->
+    </test> <!-- ContactFormDataDrivenTest -->
+    <test started-at="2024-07-19T12:36:15 IST" name="FooterTest" finished-at="2024-07-19T12:37:10 IST" duration-ms="54987">
+      <class name="com.novoproso.testCases.FooterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.FooterTest@140c9f39]" started-at="2024-07-19T12:36:15 IST" name="setup" finished-at="2024-07-19T12:36:29 IST" duration-ms="13486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:1, instance:com.novoproso.testCases.FooterTest@140c9f39]" started-at="2024-07-19T12:36:29 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:36:36 IST" duration-ms="7260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="footerTest()[pri:2, instance:com.novoproso.testCases.FooterTest@140c9f39]" started-at="2024-07-19T12:36:36 IST" name="footerTest" finished-at="2024-07-19T12:37:09 IST" duration-ms="32586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.FooterTest@140c9f39]" started-at="2024-07-19T12:37:09 IST" name="tearDown" finished-at="2024-07-19T12:37:10 IST" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.novoproso.testCases.FooterTest -->
+    </test> <!-- FooterTest -->
+    <test started-at="2024-07-19T12:37:10 IST" name="SectionPagesTest" finished-at="2024-07-19T12:39:06 IST" duration-ms="115792">
+      <class name="com.novoproso.testCases.ProductsPagesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@73ee04c8]" started-at="2024-07-19T12:37:41 IST" name="setup" finished-at="2024-07-19T12:37:57 IST" duration-ms="16110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@73ee04c8]" started-at="2024-07-19T12:37:57 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:38:00 IST" duration-ms="3658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStartNowButtonTest -->
+        <test-method signature="hoverClickBDIngensionLinkTest()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@73ee04c8]" started-at="2024-07-19T12:38:00 IST" name="hoverClickBDIngensionLinkTest" finished-at="2024-07-19T12:38:04 IST" depends-on-methods="com.novoproso.testCases.ProductsPagesTest.clickStartNowButtonTest" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickBDIngensionLinkTest -->
+        <test-method signature="hoverClickDANLinkTest()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@73ee04c8]" started-at="2024-07-19T12:38:04 IST" name="hoverClickDANLinkTest" finished-at="2024-07-19T12:38:07 IST" depends-on-methods="com.novoproso.testCases.ProductsPagesTest.clickStartNowButtonTest" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverClickDANLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.ProductsPagesTest@73ee04c8]" started-at="2024-07-19T12:38:07 IST" name="tearDown" finished-at="2024-07-19T12:38:10 IST" duration-ms="3166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.novoproso.testCases.ProductsPagesTest -->
       <class name="com.novoproso.testCases.AboutUsPagesTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@192c3f1e]" started-at="2024-07-18T19:43:04 IST" name="setup" finished-at="2024-07-18T19:43:22 IST" duration-ms="18165" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@61386958]" started-at="2024-07-19T12:37:10 IST" name="setup" finished-at="2024-07-19T12:37:28 IST" duration-ms="17475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickStartNowButtonTest()[pri:1, instance:com.novoproso.testCases.AboutUsPagesTest@192c3f1e]" started-at="2024-07-18T19:43:22 IST" name="clickStartNowButtonTest" finished-at="2024-07-18T19:43:25 IST" duration-ms="3507" status="PASS">
+        <test-method signature="clickStartNowButtonTest()[pri:1, instance:com.novoproso.testCases.AboutUsPagesTest@61386958]" started-at="2024-07-19T12:37:28 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:37:31 IST" duration-ms="3083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickStartNowButtonTest -->
-        <test-method signature="hoverClickCsrLinkTest()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@192c3f1e]" started-at="2024-07-18T19:43:25 IST" name="hoverClickCsrLinkTest" finished-at="2024-07-18T19:43:29 IST" depends-on-methods="com.novoproso.testCases.AboutUsPagesTest.clickStartNowButtonTest" duration-ms="3852" status="PASS">
+        <test-method signature="hoverClickCsrLinkTest()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@61386958]" started-at="2024-07-19T12:37:31 IST" name="hoverClickCsrLinkTest" finished-at="2024-07-19T12:37:34 IST" depends-on-methods="com.novoproso.testCases.AboutUsPagesTest.clickStartNowButtonTest" duration-ms="3225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickCsrLinkTest -->
-        <test-method signature="hoverClickLocalSportsLinkTest()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@192c3f1e]" started-at="2024-07-18T19:43:29 IST" name="hoverClickLocalSportsLinkTest" finished-at="2024-07-18T19:43:32 IST" depends-on-methods="com.novoproso.testCases.AboutUsPagesTest.clickStartNowButtonTest" duration-ms="2737" status="PASS">
+        <test-method signature="hoverClickLocalSportsLinkTest()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@61386958]" started-at="2024-07-19T12:37:34 IST" name="hoverClickLocalSportsLinkTest" finished-at="2024-07-19T12:37:37 IST" depends-on-methods="com.novoproso.testCases.AboutUsPagesTest.clickStartNowButtonTest" duration-ms="3111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickLocalSportsLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@192c3f1e]" started-at="2024-07-18T19:43:32 IST" name="tearDown" finished-at="2024-07-18T19:43:34 IST" duration-ms="1684" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.AboutUsPagesTest@61386958]" started-at="2024-07-19T12:37:37 IST" name="tearDown" finished-at="2024-07-19T12:37:41 IST" duration-ms="3529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.novoproso.testCases.AboutUsPagesTest -->
       <class name="com.novoproso.testCases.ServicesPagesTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:03 IST" name="setup" finished-at="2024-07-18T19:44:17 IST" duration-ms="14308" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:10 IST" name="setup" finished-at="2024-07-19T12:38:24 IST" duration-ms="13426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:17 IST" name="clickStartNowButtonTest" finished-at="2024-07-18T19:44:20 IST" duration-ms="3082" status="PASS">
+        <test-method signature="clickStartNowButtonTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:24 IST" name="clickStartNowButtonTest" finished-at="2024-07-19T12:38:27 IST" duration-ms="3366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickStartNowButtonTest -->
-        <test-method signature="hoverClickAILinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:20 IST" name="hoverClickAILinkTest" finished-at="2024-07-18T19:44:26 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="5790" status="PASS">
+        <test-method signature="hoverClickAILinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:27 IST" name="hoverClickAILinkTest" finished-at="2024-07-19T12:38:31 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickAILinkTest -->
-        <test-method signature="hoverClickBigDataLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:26 IST" name="hoverClickBigDataLinkTest" finished-at="2024-07-18T19:44:29 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3545" status="PASS">
+        <test-method signature="hoverClickBigDataLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:31 IST" name="hoverClickBigDataLinkTest" finished-at="2024-07-19T12:38:35 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="4200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickBigDataLinkTest -->
-        <test-method signature="hoverClickCloudLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:29 IST" name="hoverClickCloudLinkTest" finished-at="2024-07-18T19:44:33 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3650" status="PASS">
+        <test-method signature="hoverClickCloudLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:35 IST" name="hoverClickCloudLinkTest" finished-at="2024-07-19T12:38:39 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickCloudLinkTest -->
-        <test-method signature="hoverClickHRALinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:33 IST" name="hoverClickHRALinkTest" finished-at="2024-07-18T19:44:37 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3571" status="PASS">
+        <test-method signature="hoverClickHRALinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:39 IST" name="hoverClickHRALinkTest" finished-at="2024-07-19T12:38:43 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="4185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickHRALinkTest -->
-        <test-method signature="hoverClickITPMLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:37 IST" name="hoverClickITPMLinkTest" finished-at="2024-07-18T19:44:40 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3668" status="PASS">
+        <test-method signature="hoverClickITPMLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:43 IST" name="hoverClickITPMLinkTest" finished-at="2024-07-19T12:38:47 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="4080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickITPMLinkTest -->
-        <test-method signature="hoverClickITStaffLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:40 IST" name="hoverClickITStaffLinkTest" finished-at="2024-07-18T19:44:44 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3613" status="PASS">
+        <test-method signature="hoverClickITStaffLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:47 IST" name="hoverClickITStaffLinkTest" finished-at="2024-07-19T12:38:51 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickITStaffLinkTest -->
-        <test-method signature="hoverClickIdeaLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:44 IST" name="hoverClickIdeaLinkTest" finished-at="2024-07-18T19:44:48 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="4180" status="PASS">
+        <test-method signature="hoverClickIdeaLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:51 IST" name="hoverClickIdeaLinkTest" finished-at="2024-07-19T12:38:56 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="4747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickIdeaLinkTest -->
-        <test-method signature="hoverClickNetworkLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:48 IST" name="hoverClickNetworkLinkTest" finished-at="2024-07-18T19:44:53 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="4533" status="PASS">
+        <test-method signature="hoverClickNetworkLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:38:56 IST" name="hoverClickNetworkLinkTest" finished-at="2024-07-19T12:39:00 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickNetworkLinkTest -->
-        <test-method signature="hoverClickSDLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:53 IST" name="hoverClickSDLinkTest" finished-at="2024-07-18T19:44:56 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="3723" status="PASS">
+        <test-method signature="hoverClickSDLinkTest()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:39:00 IST" name="hoverClickSDLinkTest" finished-at="2024-07-19T12:39:05 IST" depends-on-methods="com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest" duration-ms="4905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverClickSDLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@49e5f737]" started-at="2024-07-18T19:44:56 IST" name="tearDown" finished-at="2024-07-18T19:44:58 IST" duration-ms="1512" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.novoproso.testCases.ServicesPagesTest@7671cb68]" started-at="2024-07-19T12:39:05 IST" name="tearDown" finished-at="2024-07-19T12:39:06 IST" duration-ms="1461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

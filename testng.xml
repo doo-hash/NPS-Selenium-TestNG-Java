@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="com.novoproso.utilities.ExtentListenerClass"></listener>
 	</listeners>
-	<test name="navlinksTest" enabled="false">
+	<test name="navlinksTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -18,7 +18,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="navlinksHoverTest" enabled="false">
+	<test name="navlinksHoverTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -30,7 +30,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="HoverDropdownClickSubLinksTest" enabled="false">
+	<test name="HoverDropdownClickSubLinksTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -52,7 +52,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="homelinkTest" enabled="false">
+	<test name="homelinkTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -62,7 +62,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="AboutUsLinkTest" enabled="false">
+	<test name="AboutUsLinkTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -72,7 +72,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="productslinkTest" enabled="false">
+	<test name="productslinkTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -82,7 +82,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="serviceslinkTest" enabled="false">
+	<test name="serviceslinkTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -92,7 +92,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="careerslinkTest" enabled="false">
+	<test name="careerslinkTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -102,7 +102,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="contactlinkTest" enabled="false">
+	<test name="contactlinkTest">
 		<classes>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
@@ -112,7 +112,7 @@
 			</class>
 		</classes>
 	</test>
-	<test name="HomePageSectionsTest" enabled="false">
+	<test name="HomePageSectionsTest">
 		<classes>
 			<class name="com.novoproso.testCases.homePageTest">
 				<methods>
@@ -126,13 +126,13 @@
 			</class>
 		</classes>
 	</test>
-	<test name="ContactFormDataDrivenTest" enabled="false">
+	<test name="ContactFormDataDrivenTest">
 		<classes>
 			<class name="com.novoproso.testCases.contactDataDrivenTest">
 			</class>
 		</classes>
 	</test>
-	<test name="FooterTest" enabled="false">
+	<test name="FooterTest">
 		<classes>
 			<class name="com.novoproso.testCases.FooterTest">
 			</class>

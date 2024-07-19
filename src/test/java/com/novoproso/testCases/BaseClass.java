@@ -48,7 +48,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 
 		//implicit wait of 10 seconds
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		//open website with the given url
 		driver.get(baseUrl);

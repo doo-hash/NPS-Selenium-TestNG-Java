@@ -42,6 +42,7 @@ public class FooterTest extends BaseClass {
 		
 		wait.until(d -> header.isHomeLinkVisible());
 		wait.until(d -> header.isAboutUsLinkVisible());
+		wait.until(d-> homePage.isAboutUsSectionHeadingVisible());
 		logger.info("navbar is displayed!");
 
 		header.clickContactLink();

@@ -25,7 +25,7 @@ public class navBarLinksTest extends BaseClass {
 
 		HomePage homePage = new HomePage(driver, wait);
 		wait.until(d -> homePage.isCookieVisible());
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		homePage.closeCookieButton();
 		logger.info("cookie button is closed!");
 		
@@ -36,6 +36,8 @@ public class navBarLinksTest extends BaseClass {
 		
 		wait.until(d -> header.isHomeLinkVisible());
 		wait.until(d -> header.isAboutUsLinkVisible());
+		wait.until(d-> homePage.isAboutUsSectionHeadingVisible());
+
 		logger.info("navbar is displayed!");
 
 	}

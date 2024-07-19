@@ -4,6 +4,46 @@
   <listeners>
     <listener class-name="com.novoproso.utilities.ExtentListenerClass"/>
   </listeners>
+  <test thread-count="5" name="AboutUsLinkTest(failed)">
+    <classes>
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <methods>
+          <include name="clickAboutUsLinkTest"/>
+          <include name="clickStartNowButtonTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </classes>
+  </test> <!-- AboutUsLinkTest(failed) -->
+  <test thread-count="5" name="careerslinkTest(failed)">
+    <classes>
+      <class name="com.novoproso.testCases.navBarLinksTest">
+        <methods>
+          <include name="clickCareersLinkTest"/>
+          <include name="clickStartNowButtonTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+    </classes>
+  </test> <!-- careerslinkTest(failed) -->
+  <test thread-count="5" name="HomePageSectionsTest(failed)">
+    <classes>
+      <class name="com.novoproso.testCases.homePageTest">
+        <methods>
+          <include name="servicesSectionTest"/>
+          <include name="contactSectionTest"/>
+          <include name="productsSectionTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="aboutUsSectionTest"/>
+          <include name="clickStartNowButtonTest"/>
+          <include name="careersSectionTest"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.homePageTest -->
+    </classes>
+  </test> <!-- HomePageSectionsTest(failed) -->
   <test thread-count="5" name="ContactFormDataDrivenTest(failed)">
     <classes>
       <class name="com.novoproso.testCases.contactDataDrivenTest">
@@ -15,4 +55,15 @@
       </class> <!-- com.novoproso.testCases.contactDataDrivenTest -->
     </classes>
   </test> <!-- ContactFormDataDrivenTest(failed) -->
+  <test thread-count="5" name="FooterTest(failed)">
+    <classes>
+      <class name="com.novoproso.testCases.FooterTest">
+        <methods>
+          <include name="clickStartNowButtonTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.FooterTest -->
+    </classes>
+  </test> <!-- FooterTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
