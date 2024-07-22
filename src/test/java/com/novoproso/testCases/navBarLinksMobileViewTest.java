@@ -3,54 +3,27 @@ package com.novoproso.testCases;
 import java.time.Duration;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.novoproso.pageObject.HomePage;
 import com.novoproso.pageObject.blocks.Header;
 
-public class navBarLinksTest extends BaseClass {
-	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
-	public void clickHomeLinkTest() {
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		
-		header.clickHomeLink();
-		logger.info("home link is clicked!");
-		
-		wait.until(d -> header.isStartNowVisible());
-		logger.info("start now is displayed!");
+public class navBarLinksMobileViewTest extends BaseClass {
 
-	}
-
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
-	public void hoverAboutUsLinkTest() {
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		
-		header.hoverAboutUsLink();
-		logger.info("hovered over About Us link and its dropdown is visible!");
-		
-	}
-	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
-	public void clickAboutUsLinkTest() {
-		
+	@BeforeClass
+	public void clickToggleTest() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		Header header = new Header(driver, wait);
 		HomePage homePage = new HomePage(driver, wait);
 		
-		header.clickAboutUsLink();
-		logger.info("About Us link is clicked!");
-		
+		header.clickToggleButton();
+		logger.info("toggle button is clicked!");
 		wait.until(d -> homePage.isAboutUsSectionVisible());
-		logger.info("about us section is displayed!");
-
+		
 	}
-	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+			
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickCsrLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -67,11 +40,14 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> driver.getCurrentUrl().equals("https://novoproso.com/"));
 		logger.info(driver.getCurrentUrl());
 		logger.info("back to main page!");
+		
+		wait.until(d -> header.isBrandLinkVisible());
 
-		wait.until(d -> header.isAboutUsLinkVisible());
+
+
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickLocalSportsLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -89,37 +65,14 @@ public class navBarLinksTest extends BaseClass {
 		logger.info(driver.getCurrentUrl());
 		logger.info("back to main page!");
 
-		wait.until(d -> header.isAboutUsLinkVisible());
-	}
-	
-	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
-	public void hoverProductsLinkTest() {
+		wait.until(d -> header.isBrandLinkVisible());
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		
-		header.hoverProductsLink();
-		logger.info("hovered over Products link and its dropdown is visible!");
-		
-	}
-	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
-	public void clickProductsLinkTest() {
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		HomePage homePage = new HomePage(driver, wait);
-		
-		header.clickProductsLink();
-		logger.info("Products link is clicked!");
-		
-		wait.until(d -> homePage.isproductsSectionVisible());
-		logger.info("products section is displayed!");
+
 
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+		
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickDANLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -137,10 +90,13 @@ public class navBarLinksTest extends BaseClass {
 		logger.info(driver.getCurrentUrl());
 		logger.info("back to main page!");
 
-		wait.until(d -> header.isAboutUsLinkVisible());
+		wait.until(d -> header.isHomeLinkVisible());
+
+
+
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickBDIngensionLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -158,41 +114,17 @@ public class navBarLinksTest extends BaseClass {
 		logger.info(driver.getCurrentUrl());
 		logger.info("back to main page!");
 
-		wait.until(d -> header.isAboutUsLinkVisible());
-	}
-	
-	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
-	public void hoverServicesLinkTest() {
+		wait.until(d -> header.isHomeLinkVisible());
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		
-		header.hoverServicesLink();
-		logger.info("hovered over Services link and its dropdown is visible!");
-		
-	}
-	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
-	public void clickServicesLinkTest() {
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		HomePage homePage = new HomePage(driver, wait);
-		
-		header.clickServicesLink();
-		logger.info("Services link is clicked!");
-		
-		wait.until(d -> homePage.isServicesSectionVisible());
-		logger.info("services section is displayed!");
 
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+		
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickIdeaLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
+		Header header = new Header(driver, wait);		
 		
 		header.hoverClickIdeaLink();
 		logger.info("Idea link is clicked!");
@@ -207,9 +139,10 @@ public class navBarLinksTest extends BaseClass {
 		logger.info("back to main page!");
 
 		wait.until(d -> header.isAboutUsLinkVisible());
+		
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickSDLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -230,7 +163,7 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickITStaffLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -251,7 +184,7 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}	
 
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickCloudLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -272,7 +205,7 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickAILinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -293,7 +226,7 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickBigDataLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -314,7 +247,7 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickHRALinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -335,7 +268,7 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickITPMLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -356,7 +289,7 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}	
 
-	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest")
 	public void hoverClickNetworkLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -377,35 +310,5 @@ public class navBarLinksTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
-	public void clickCareersLinkTest() {
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		HomePage homePage = new HomePage(driver, wait);
-		
-		header.clickCareersLink();
-		logger.info("careers link is clicked!");
-		
-		wait.until(d -> homePage.isCareersSectionVisible());
-		logger.info("careers section is displayed!");
-
-	}
-	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
-	public void clickContactLinkTest() {
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-		HomePage homePage = new HomePage(driver, wait);
-		
-		header.clickContactLink();
-		logger.info("contact us link is clicked!");
-		
-		wait.until(d -> homePage.isContactSectionVisible());
-		logger.info("contact us section is displayed!");
-
-	}
 	
 }

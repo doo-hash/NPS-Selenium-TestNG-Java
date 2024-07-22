@@ -1,6 +1,6 @@
 package com.novoproso.testCases;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
@@ -17,43 +17,10 @@ import com.novoproso.pageObject.HomePage;
 import com.novoproso.pageObject.blocks.Header;
 import com.novoproso.utilities.HighlightElementClass;
 import com.novoproso.utilities.MouseHoverScript;
-import com.novoproso.utilities.ReadConfig;
 
-public class homePageTest extends BaseClass {
-
-	@Test
-	public void clickStartNowButtonTest() throws InterruptedException {
-
-		ReadConfig readConfig = new ReadConfig();
-
-		driver.get(readConfig.getBaseURL());
-		logger.info(driver.getCurrentUrl());
-		logger.info("Novoproso main page opened!");
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-
-		HomePage homePage = new HomePage(driver, wait);
-		wait.until(d -> homePage.isCookieVisible());
-		Thread.sleep(2000);
-		homePage.closeCookieButton();
-		logger.info("cookie button is closed!");
-
-		
-		wait.until(d -> header.isStartNowVisible());
-		
-		header.clickStartNowButton();
-		logger.info("startNow button is clicked!");
-		
-		wait.until(d -> header.isHomeLinkVisible());
-		wait.until(d -> header.isAboutUsLinkVisible());
-		wait.until(d-> homePage.isAboutUsSectionHeadingVisible());
-
-		logger.info("navbar is displayed!");
-
-	}
-		
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+public class HomePageTest extends BaseClass {
+	
+	@Test(priority = 1, dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void aboutUsSectionTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -81,17 +48,12 @@ public class homePageTest extends BaseClass {
 	}
 		
 		
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+	@Test(priority = 2, dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void productsSectionTest() throws InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		Header header = new Header(driver, wait);
 		HomePage homePage = new HomePage(driver, wait);
-
-//		homePage.isCookieVisible();
-		Thread.sleep(2000);
-//		homePage.closeCookieButton();
-//		logger.info("cookie button is closed!");
 		
 		header.clickProductsLink();
 		logger.info("Products link is clicked!");
@@ -143,17 +105,12 @@ public class homePageTest extends BaseClass {
 	}
 	
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+	@Test(priority = 3, dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void servicesSectionTest() throws InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		Header header = new Header(driver, wait);
 		HomePage homePage = new HomePage(driver, wait);
-
-//		homePage.isCookieVisible();
-		Thread.sleep(2000);
-//		homePage.closeCookieButton();
-//		logger.info("cookie button is closed!");
 		
 		header.clickServicesLink();
 		logger.info("Services link is clicked!");
@@ -206,7 +163,7 @@ public class homePageTest extends BaseClass {
 	}
 	
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+	@Test(priority = 4, dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void careersSectionTest() throws InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -217,11 +174,6 @@ public class homePageTest extends BaseClass {
 		Header header = new Header(driver, wait);
 		HomePage homePage = new HomePage(driver, wait);
 
-//		homePage.isCookieVisible();
-		Thread.sleep(2000);
-//		homePage.closeCookieButton();
-//		logger.info("cookie button is closed!");
-		
 		header.clickCareersLink();
 		logger.info("Careers link is clicked!");
 		
@@ -283,18 +235,13 @@ public class homePageTest extends BaseClass {
 
 	}
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+	@Test(priority = 5, dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void contactSectionTest() throws InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		Actions actions = new Actions(driver);
 		Header header = new Header(driver, wait);
 		HomePage homePage = new HomePage(driver, wait);
-
-//		homePage.isCookieVisible();
-		Thread.sleep(2000);
-//		homePage.closeCookieButton();
-//		logger.info("cookie button is closed!");
 		
 		header.clickContactLink();
 		logger.info("contact us link is clicked!");
@@ -326,7 +273,6 @@ public class homePageTest extends BaseClass {
 		logger.info("go to map iframe!");
 		Thread.sleep(2000);
 		driver.switchTo().frame(mapIframe);
-//		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(mapIframe));
 		logger.info("switched to map iframe!");
 		
 		actions.moveByOffset(150, 150);
@@ -358,5 +304,6 @@ public class homePageTest extends BaseClass {
 
 		
 	}
+	
 	
 }

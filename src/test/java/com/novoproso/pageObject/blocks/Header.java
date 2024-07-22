@@ -25,7 +25,7 @@ public class Header {
 	@FindBy(linkText = "START NOW")
 	WebElement startNowButton;
 	
-	@FindBy(xpath = "h1")
+	@FindBy(xpath = "//h1/a")
 	WebElement brandLink;
 	
 	@FindBy(xpath = "//li/a[@href='#home']")
@@ -46,7 +46,7 @@ public class Header {
 	@FindBy(xpath = "//li/a[@href='#contact']")
 	WebElement contactUsLink;
 	
-	@FindBy(xpath = "h1")
+	@FindBy(xpath = "//button[contains(@class,'navbar-toggle')]")
 	WebElement toggleButton;
 	
 	@FindBy(xpath = "(//li/ul)[1]")
@@ -120,6 +120,23 @@ public class Header {
 	public void clickStartNowButton() {
 		highlightElement.highlightElement(driver, startNowButton);
 		startNowButton.click();
+//		wait.until(ExpectedConditions.visibilityOf(homeLink));
+	}
+	
+	//check if brand link is visible
+	public boolean isBrandLinkVisible() {
+		return brandLink.isDisplayed();
+	}
+	
+	//check if toggle button is visible
+	public boolean isToggleVisible() {
+		return toggleButton.isDisplayed();
+	}
+	
+	//click toggle button
+	public void clickToggleButton() {
+		highlightElement.highlightElement(driver, toggleButton);
+		toggleButton.click();
 		wait.until(ExpectedConditions.visibilityOf(homeLink));
 	}
 	

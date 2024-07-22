@@ -12,7 +12,6 @@ import com.novoproso.pageObject.AIMLPage;
 import com.novoproso.pageObject.BigDataPage;
 import com.novoproso.pageObject.CloudPage;
 import com.novoproso.pageObject.HRAPage;
-import com.novoproso.pageObject.HomePage;
 import com.novoproso.pageObject.ITPMPage;
 import com.novoproso.pageObject.ITStaffPage;
 import com.novoproso.pageObject.IdeaPage;
@@ -20,41 +19,11 @@ import com.novoproso.pageObject.NetworkPage;
 import com.novoproso.pageObject.SoftwarePage;
 import com.novoproso.pageObject.blocks.Header;
 import com.novoproso.utilities.HighlightElementClass;
-import com.novoproso.utilities.ReadConfig;
 
 public class ServicesPagesTest extends BaseClass {
-
-	@Test
-	public void clickStartNowButtonTest() throws InterruptedException {
-
-		ReadConfig readConfig = new ReadConfig();
-
-		driver.get(readConfig.getBaseURL());
-		logger.info(driver.getCurrentUrl());
-		logger.info("Novoproso main page opened!");
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-
-		HomePage homePage = new HomePage(driver, wait);
-		wait.until(d -> homePage.isCookieVisible());
-		Thread.sleep(2000);
-		homePage.closeCookieButton();
-		logger.info("cookie button is closed!");
-		
-		wait.until(d -> header.isStartNowVisible());
-		
-		header.clickStartNowButton();
-		logger.info("startNow button is clicked!");
-		
-		wait.until(d -> header.isHomeLinkVisible());
-		wait.until(d -> header.isAboutUsLinkVisible());
-		logger.info("navbar is displayed!");
-
-	}
 		
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickIdeaLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -108,7 +77,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickSDLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -161,7 +131,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickITStaffLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -215,7 +186,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}	
 
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickCloudLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -268,7 +240,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickAILinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -321,7 +294,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickBigDataLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -376,7 +350,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickHRALinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -431,7 +406,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickITPMLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -484,7 +460,8 @@ public class ServicesPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}	
 
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickNetworkLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));

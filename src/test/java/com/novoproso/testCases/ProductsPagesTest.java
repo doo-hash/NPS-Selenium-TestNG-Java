@@ -10,44 +10,13 @@ import org.testng.annotations.Test;
 
 import com.novoproso.pageObject.BigDataIngensionPage;
 import com.novoproso.pageObject.DANPage;
-import com.novoproso.pageObject.HomePage;
 import com.novoproso.pageObject.blocks.Header;
 import com.novoproso.utilities.HighlightElementClass;
-import com.novoproso.utilities.ReadConfig;
 
 public class ProductsPagesTest extends BaseClass {
-
-	@Test
-	public void clickStartNowButtonTest() throws InterruptedException {
-
-		ReadConfig readConfig = new ReadConfig();
-
-		driver.get(readConfig.getBaseURL());
-		logger.info(driver.getCurrentUrl());
-		logger.info("Novoproso main page opened!");
-		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		Header header = new Header(driver, wait);
-
-		HomePage homePage = new HomePage(driver, wait);
-		wait.until(d -> homePage.isCookieVisible());
-		Thread.sleep(2000);
-		homePage.closeCookieButton();
-		logger.info("cookie button is closed!");
-		
-		wait.until(d -> header.isStartNowVisible());
-		
-		header.clickStartNowButton();
-		logger.info("startNow button is clicked!");
-		
-		wait.until(d -> header.isHomeLinkVisible());
-		wait.until(d -> header.isAboutUsLinkVisible());
-		logger.info("navbar is displayed!");
-
-	}
 		
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickDANLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -102,7 +71,8 @@ public class ProductsPagesTest extends BaseClass {
 		wait.until(d -> header.isAboutUsLinkVisible());
 	}
 	
-	@Test(dependsOnMethods = "clickStartNowButtonTest")
+
+	@Test(dependsOnMethods = "com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest")
 	public void hoverClickBDIngensionLinkTest() {
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));

@@ -3,7 +3,9 @@ package com.novoproso.pageObject;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -174,6 +176,9 @@ public class HomePage {
 	@FindBy(className = "form_status")
 	WebElement successMessage;
 	
+	@FindBy(xpath = "//div[contains(@class,'cookie-container')]")
+	WebElement cookieContainer;
+	
 	@FindBy(xpath = "//div[contains(@class,'cookie-container')]/p/button")
 	WebElement cookieButton;
 	
@@ -191,8 +196,26 @@ public class HomePage {
 
 	//is cookie visible
 	public boolean isCookieVisible() {
-		wait.until(d -> cookieButton.isDisplayed());
-		return cookieButton.isDisplayed();
+		wait.until(d -> cookieContainer.isDisplayed());
+		return cookieContainer.isDisplayed();
+	}
+
+	//get cookie location
+	public Point getCookieLocation() {
+		Point location = cookieContainer.getLocation();
+		return location;
+	}
+	
+	//get cookie Y location
+	public int getCookieYLocation() {
+		int y = cookieContainer.getLocation().getY();
+		return y;
+	}
+	
+	//get cookie dimension
+	public Dimension getCookieSize() {
+		Dimension location = cookieContainer.getSize();
+		return location;
 	}
 	
 	//close cookie button

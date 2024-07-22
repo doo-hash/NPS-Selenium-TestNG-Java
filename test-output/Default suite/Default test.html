@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 18 19:41:06 IST 2024</td>
+<td>Started on:</td><td>Sun Jul 21 12:00:54 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>60 seconds (60181 ms)</td>
+<tr><td>Total time:</td><td>81 seconds (81387 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,361 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest()'><b>clickStartNowButtonTest</b><br>Test class: com.novoproso.testCases.ClickStartNowTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (481, 1060)
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f7b846400cc419304c385664ace2d436, clickElement {id=f.0C3208F446EBF3FA8A43849C8A036792.d.DC93A8ED25C004919374A07B6566875F.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: //div[contains(@class,&apos;cookie-container&apos;)]/p/button]
+Session ID: f7b846400cc419304c385664ace2d436
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at com.novoproso.pageObject.HomePage.closeCookieButton(HomePage.java:224)
+	at com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest(ClickStartNowTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1110148152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1110148152'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (481, 1060)
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f7b846400cc419304c385664ace2d436, clickElement {id=f.0C3208F446EBF3FA8A43849C8A036792.d.DC93A8ED25C004919374A07B6566875F.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: //div[contains(@class,&apos;cookie-container&apos;)]/p/button]
+Session ID: f7b846400cc419304c385664ace2d436
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at com.novoproso.pageObject.HomePage.closeCookieButton(HomePage.java:224)
+	at com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonTest(ClickStartNowTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>com.novoproso.testCases.ClickStartNowTest@3f56875e</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickIdeaLinkTest()'><b>hoverClickIdeaLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: (//li/ul)[3]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b846400cc419304c385664ace2d436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.novoproso.pageObject.blocks.Header.hoverClickIdeaLink(Header.java:281)
+	at com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickIdeaLinkTest(navBarLinksMobileViewTest.java:132)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1590292218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1590292218'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: (//li/ul)[3]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b846400cc419304c385664ace2d436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.novoproso.pageObject.blocks.Header.hoverClickIdeaLink(Header.java:281)
+	at com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickIdeaLinkTest(navBarLinksMobileViewTest.java:132)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>15</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickAILinkTest()'><b>hoverClickAILinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: //li/a[@href=&apos;#services&apos;]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b846400cc419304c385664ace2d436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.novoproso.pageObject.blocks.Header.hoverClickAILink(Header.java:332)
+	at com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickAILinkTest(navBarLinksMobileViewTest.java:216)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace663119869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace663119869'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: //li/a[@href=&apos;#services&apos;]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b846400cc419304c385664ace2d436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.novoproso.pageObject.blocks.Header.hoverClickAILink(Header.java:332)
+	at com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickAILinkTest(navBarLinksMobileViewTest.java:216)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>15</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickCsrLinkTest()'><b>hoverClickCsrLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: (//li/ul)[1]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b846400cc419304c385664ace2d436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.novoproso.pageObject.blocks.Header.hoverClickCSRLink(Header.java:183)
+	at com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickCsrLinkTest(navBarLinksMobileViewTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace361423492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace361423492'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (f7b846400cc419304c385664ace2d436)] -&gt; xpath: (//li/ul)[1]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53981}, msedge: {msedgedriverVersion: 126.0.2592.113 (088a59f7406..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7b846400cc419304c385664ace2d436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.novoproso.pageObject.blocks.Header.hoverClickCSRLink(Header.java:183)
+	at com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickCsrLinkTest(navBarLinksMobileViewTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>15</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,55 +431,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickITPMLinkTest()'><b>hoverClickITPMLinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickDANLinkTest()'><b>hoverClickDANLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
 <td></td>
-<td>4</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
+<td>2</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
 <tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickAILinkTest()'><b>hoverClickAILinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickSDLinkTest()'><b>hoverClickSDLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
 <td></td>
-<td>4</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
 <tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickCloudLinkTest()'><b>hoverClickCloudLinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickITPMLinkTest()'><b>hoverClickITPMLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td></td>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickLocalSportsLinkTest()'><b>hoverClickLocalSportsLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td></td>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickBDIngensionLinkTest()'><b>hoverClickBDIngensionLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td></td>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickCloudLinkTest()'><b>hoverClickCloudLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td></td>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickNetworkLinkTest()'><b>hoverClickNetworkLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td></td>
+<td>0</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickHRALinkTest()'><b>hoverClickHRALinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td></td>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickITStaffLinkTest()'><b>hoverClickITStaffLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
+<td></td>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
+<tr>
+<td title='com.novoproso.testCases.ClickStartNowTest.clickStartNowButtonMobileViewTest()'><b>clickStartNowButtonMobileViewTest</b><br>Test class: com.novoproso.testCases.ClickStartNowTest</td>
 <td></td>
 <td>3</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
+<td>com.novoproso.testCases.ClickStartNowTest@3f56875e</td></tr>
 <tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickSDLinkTest()'><b>hoverClickSDLinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
+<td title='com.novoproso.testCases.navBarLinksMobileViewTest.hoverClickBigDataLinkTest()'><b>hoverClickBigDataLinkTest</b><br>Test class: com.novoproso.testCases.navBarLinksMobileViewTest</td>
 <td></td>
-<td>3</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
-<tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickIdeaLinkTest()'><b>hoverClickIdeaLinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
-<td></td>
-<td>3</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
-<tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.clickStartNowButtonTest()'><b>clickStartNowButtonTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
-<td></td>
-<td>3</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
-<tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickBigDataLinkTest()'><b>hoverClickBigDataLinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
-<td></td>
-<td>4</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
-<tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickHRALinkTest()'><b>hoverClickHRALinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
-<td></td>
-<td>3</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
-<tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickITStaffLinkTest()'><b>hoverClickITStaffLinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
-<td></td>
-<td>4</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
-<tr>
-<td title='com.novoproso.testCases.ServicesPagesTest.hoverClickNetworkLinkTest()'><b>hoverClickNetworkLinkTest</b><br>Test class: com.novoproso.testCases.ServicesPagesTest</td>
-<td></td>
-<td>4</td>
-<td>com.novoproso.testCases.ServicesPagesTest@17a7f733</td></tr>
+<td>1</td>
+<td>com.novoproso.testCases.navBarLinksMobileViewTest@394a2528</td></tr>
 </table><p>
 </body>
 </html>

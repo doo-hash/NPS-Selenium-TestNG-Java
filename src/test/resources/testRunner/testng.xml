@@ -6,13 +6,9 @@
 	</listeners>
 	<test name="navlinksTest">
 		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
-				<methods>
-					<include name="clickStartNowButtonTest"></include>
-				</methods>
-			</class>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
+					<include name="clickStartNowButtonTest"></include>
 					<include name="clickAboutUsLinkTest"></include>
 					<include name="clickProductsLinkTest"></include>
 					<include name="clickServicesLinkTest"></include>
@@ -24,13 +20,9 @@
 	</test>
 	<test name="navlinksHoverTest">
 		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
-				<methods>
-					<include name="clickStartNowButtonTest"></include>
-				</methods>
-			</class>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
+					<include name="clickStartNowButtonTest"></include>
 					<include name="hoverAboutUsLinkTest"></include>
 					<include name="hoverProductsLinkTest"></include>
 					<include name="hoverServicesLinkTest"></include>
@@ -40,13 +32,9 @@
 	</test>
 	<test name="HoverDropdownClickSubLinksTest">
 		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
-				<methods>
-					<include name="clickStartNowButtonTest"></include>
-				</methods>
-			</class>
 			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
+					<include name="clickStartNowButtonTest"></include>
 					<include name="hoverClickCsrLinkTest"></include>
 					<include name="hoverClickLocalSportsLinkTest"></include>
 					<include name="hoverClickDANLinkTest"></include>
@@ -64,35 +52,82 @@
 			</class>
 		</classes>
 	</test>
-	<test name="HomePageSectionsTest">
+	<test name="homelinkTest">
 		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
+			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
 					<include name="clickStartNowButtonTest"></include>
+					<include name="clickHomeLinkTest"></include>
 				</methods>
 			</class>
-			<class name="com.novoproso.testCases.HomePageTest" />
 		</classes>
 	</test>
-	<test name="SectionPagesTest">
+	<test name="AboutUsLinkTest">
 		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
+			<class name="com.novoproso.testCases.navBarLinksTest">
 				<methods>
 					<include name="clickStartNowButtonTest"></include>
+					<include name="clickAboutUsLinkTest"></include>
 				</methods>
 			</class>
-			<class name="com.novoproso.testCases.AboutUsPagesTest" />
-			<class name="com.novoproso.testCases.ProductsPagesTest" />
-			<class name="com.novoproso.testCases.ServicesPagesTest" />
+		</classes>
+	</test>
+	<test name="productslinkTest">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickProductsLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="serviceslinkTest">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickServicesLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="careerslinkTest">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickCareersLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="contactlinkTest">
+		<classes>
+			<class name="com.novoproso.testCases.navBarLinksTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="clickContactLinkTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="HomePageSectionsTest">
+		<classes>
+			<class name="com.novoproso.testCases.homePageTest">
+				<methods>
+					<include name="clickStartNowButtonTest"></include>
+					<include name="aboutUsSectionTest"></include>
+					<include name="productsSectionTest"></include>
+					<include name="servicesSectionTest"></include>
+					<include name="careersSectionTest"></include>
+					<include name="contactSectionTest"></include>
+				</methods>
+			</class>
 		</classes>
 	</test>
 	<test name="ContactFormDataDrivenTest">
 		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
-				<methods>
-					<include name="clickStartNowButtonTest"></include>
-				</methods>
-			</class>
 			<class name="com.novoproso.testCases.contactDataDrivenTest">
 			</class>
 		</classes>
@@ -103,42 +138,11 @@
 			</class>
 		</classes>
 	</test>
-
-	<test name="HoverDropdownClickSubLinksMobileViewTest">
+		<test name="SectionPagesTest">
 		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
-				<methods>
-					<include name="clickStartNowButtonMobileViewTest"></include>
-				</methods>
-			</class>
-			<class name="com.novoproso.testCases.navBarLinksMobileViewTest">
-				<methods>
-					<include name="hoverClickCsrLinkTest"></include>
-					<include name="hoverClickLocalSportsLinkTest"></include>
-					<include name="hoverClickDANLinkTest"></include>
-					<include name="hoverClickBDIngensionLinkTest"></include>
-					<include name="hoverClickIdeaLinkTest"></include>
-					<include name="hoverClickSDLinkTest"></include>
-					<include name="hoverClickITStaffLinkTest"></include>
-					<include name="hoverClickCloudLinkTest"></include>
-					<include name="hoverClickAILinkTest"></include>
-					<include name="hoverClickBigDataLinkTest"></include>
-					<include name="hoverClickHRALinkTest"></include>
-					<include name="hoverClickITPMLinkTest"></include>
-					<include name="hoverClickNetworkLinkTest"></include>
-				</methods>
-			</class>
+			<class name="com.novoproso.testCases.AboutUsPagesTest" />
+			<class name="com.novoproso.testCases.ProductsPagesTest" />
+			<class name="com.novoproso.testCases.ServicesPagesTest" />
 		</classes>
 	</test>
-	<test name="HomePageSectionsMobileViewTest">
-		<classes>
-			<class name="com.novoproso.testCases.ClickStartNowTest">
-				<methods>
-					<include name="clickStartNowButtonMobileViewTest"></include>
-				</methods>
-			</class>
-			<class name="com.novoproso.testCases.HomePageMobileViewTest" />
-		</classes>
-	</test>
-
 </suite>

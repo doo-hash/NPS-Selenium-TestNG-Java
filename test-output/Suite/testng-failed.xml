@@ -4,66 +4,95 @@
   <listeners>
     <listener class-name="com.novoproso.utilities.ExtentListenerClass"/>
   </listeners>
-  <test thread-count="5" name="AboutUsLinkTest(failed)">
+  <test thread-count="5" name="navlinksHoverTest(failed)">
     <classes>
-      <class name="com.novoproso.testCases.navBarLinksTest">
+      <class name="com.novoproso.testCases.ClickStartNowTest">
         <methods>
-          <include name="clickAboutUsLinkTest"/>
           <include name="clickStartNowButtonTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+      </class> <!-- com.novoproso.testCases.ClickStartNowTest -->
     </classes>
-  </test> <!-- AboutUsLinkTest(failed) -->
-  <test thread-count="5" name="careerslinkTest(failed)">
+  </test> <!-- navlinksHoverTest(failed) -->
+  <test thread-count="5" name="HoverDropdownClickSubLinksTest(failed)">
     <classes>
-      <class name="com.novoproso.testCases.navBarLinksTest">
+      <class name="com.novoproso.testCases.ClickStartNowTest">
         <methods>
-          <include name="clickCareersLinkTest"/>
           <include name="clickStartNowButtonTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.novoproso.testCases.navBarLinksTest -->
+      </class> <!-- com.novoproso.testCases.ClickStartNowTest -->
     </classes>
-  </test> <!-- careerslinkTest(failed) -->
+  </test> <!-- HoverDropdownClickSubLinksTest(failed) -->
   <test thread-count="5" name="HomePageSectionsTest(failed)">
     <classes>
-      <class name="com.novoproso.testCases.homePageTest">
+      <class name="com.novoproso.testCases.ClickStartNowTest">
         <methods>
-          <include name="servicesSectionTest"/>
-          <include name="contactSectionTest"/>
-          <include name="productsSectionTest"/>
+          <include name="clickStartNowButtonTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="aboutUsSectionTest"/>
-          <include name="clickStartNowButtonTest"/>
-          <include name="careersSectionTest"/>
         </methods>
-      </class> <!-- com.novoproso.testCases.homePageTest -->
+      </class> <!-- com.novoproso.testCases.ClickStartNowTest -->
+      <class name="com.novoproso.testCases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="careersSectionTest"/>
+          <include name="aboutUsSectionTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.HomePageTest -->
     </classes>
   </test> <!-- HomePageSectionsTest(failed) -->
-  <test thread-count="5" name="ContactFormDataDrivenTest(failed)">
+  <test thread-count="5" name="HoverDropdownClickSubLinksMobileViewTest(failed)">
     <classes>
-      <class name="com.novoproso.testCases.contactDataDrivenTest">
+      <class name="com.novoproso.testCases.ClickStartNowTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="clickStartNowButtonTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.novoproso.testCases.contactDataDrivenTest -->
-    </classes>
-  </test> <!-- ContactFormDataDrivenTest(failed) -->
-  <test thread-count="5" name="FooterTest(failed)">
-    <classes>
-      <class name="com.novoproso.testCases.FooterTest">
-        <methods>
-          <include name="clickStartNowButtonTest"/>
+          <include name="clickStartNowButtonMobileViewTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.novoproso.testCases.FooterTest -->
+      </class> <!-- com.novoproso.testCases.ClickStartNowTest -->
+      <class name="com.novoproso.testCases.navBarLinksMobileViewTest">
+        <methods>
+          <include name="hoverClickBigDataLinkTest"/>
+          <include name="hoverClickSDLinkTest"/>
+          <include name="tearDown"/>
+          <include name="clickToggleTest"/>
+          <include name="hoverClickITPMLinkTest"/>
+          <include name="hoverClickHRALinkTest"/>
+          <include name="hoverClickLocalSportsLinkTest"/>
+          <include name="hoverClickNetworkLinkTest"/>
+          <include name="hoverClickITStaffLinkTest"/>
+          <include name="hoverClickCloudLinkTest"/>
+          <include name="hoverClickCsrLinkTest"/>
+          <include name="hoverClickDANLinkTest"/>
+          <include name="hoverClickBDIngensionLinkTest"/>
+          <include name="setup"/>
+          <include name="hoverClickIdeaLinkTest"/>
+          <include name="hoverClickAILinkTest"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.navBarLinksMobileViewTest -->
     </classes>
-  </test> <!-- FooterTest(failed) -->
+  </test> <!-- HoverDropdownClickSubLinksMobileViewTest(failed) -->
+  <test thread-count="5" name="HomePageSectionsMobileViewTest(failed)">
+    <classes>
+      <class name="com.novoproso.testCases.ClickStartNowTest">
+        <methods>
+          <include name="clickStartNowButtonMobileViewTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.ClickStartNowTest -->
+      <class name="com.novoproso.testCases.HomePageMobileViewTest">
+        <methods>
+          <include name="productsSectionTest"/>
+          <include name="tearDown"/>
+          <include name="careersSectionTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.novoproso.testCases.HomePageMobileViewTest -->
+    </classes>
+  </test> <!-- HomePageSectionsMobileViewTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

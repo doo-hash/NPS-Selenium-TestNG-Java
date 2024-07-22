@@ -1,428 +1,561 @@
-[INFO ] 2024-07-19 12:29:19.462 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:29:19.472 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:29:22.071 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:29:22.325 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:29:23.136 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:29:23.457 [main] NPS-Selenium-TestNG-Java - About Us link is clicked!
-[INFO ] 2024-07-19 12:29:23.546 [main] NPS-Selenium-TestNG-Java - about us section is displayed!
-[INFO ] 2024-07-19 12:29:23.888 [main] NPS-Selenium-TestNG-Java - Products link is clicked!
-[INFO ] 2024-07-19 12:29:23.964 [main] NPS-Selenium-TestNG-Java - products section is displayed!
-[INFO ] 2024-07-19 12:29:24.168 [main] NPS-Selenium-TestNG-Java - Services link is clicked!
-[INFO ] 2024-07-19 12:29:24.245 [main] NPS-Selenium-TestNG-Java - services section is displayed!
-[INFO ] 2024-07-19 12:29:24.496 [main] NPS-Selenium-TestNG-Java - careers link is clicked!
-[INFO ] 2024-07-19 12:29:24.605 [main] NPS-Selenium-TestNG-Java - careers section is displayed!
-[INFO ] 2024-07-19 12:29:24.848 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
-[INFO ] 2024-07-19 12:29:24.917 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
-[INFO ] 2024-07-19 12:30:13.843 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:30:13.843 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:30:16.416 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:30:16.687 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:30:17.484 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:30:18.418 [main] NPS-Selenium-TestNG-Java - hovered over About Us link and its dropdown is visible!
-[INFO ] 2024-07-19 12:30:19.286 [main] NPS-Selenium-TestNG-Java - hovered over Products link and its dropdown is visible!
-[INFO ] 2024-07-19 12:30:20.133 [main] NPS-Selenium-TestNG-Java - hovered over Services link and its dropdown is visible!
-[INFO ] 2024-07-19 12:30:56.578 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:30:56.578 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:30:58.936 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:30:59.179 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:30:59.915 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:31:01.328 [main] NPS-Selenium-TestNG-Java - csr link is clicked!
-[INFO ] 2024-07-19 12:31:01.339 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/csr.html
-[INFO ] 2024-07-19 12:31:01.339 [main] NPS-Selenium-TestNG-Java - csr page is opened!
-[INFO ] 2024-07-19 12:31:01.384 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:01.384 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:02.958 [main] NPS-Selenium-TestNG-Java - local sports link is clicked!
-[INFO ] 2024-07-19 12:31:02.978 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/localSports.html
-[INFO ] 2024-07-19 12:31:02.978 [main] NPS-Selenium-TestNG-Java - local sports page is opened!
-[INFO ] 2024-07-19 12:31:03.109 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:03.109 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:04.431 [main] NPS-Selenium-TestNG-Java - DAN link is clicked!
-[INFO ] 2024-07-19 12:31:04.454 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
-[INFO ] 2024-07-19 12:31:04.454 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
-[INFO ] 2024-07-19 12:31:04.572 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:04.572 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:05.971 [main] NPS-Selenium-TestNG-Java - BDIngension link is clicked!
-[INFO ] 2024-07-19 12:31:05.990 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
-[INFO ] 2024-07-19 12:31:05.990 [main] NPS-Selenium-TestNG-Java - Big data ingension page is opened!
-[INFO ] 2024-07-19 12:31:06.118 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:06.118 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:07.572 [main] NPS-Selenium-TestNG-Java - Idea link is clicked!
-[INFO ] 2024-07-19 12:31:07.586 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
-[INFO ] 2024-07-19 12:31:07.586 [main] NPS-Selenium-TestNG-Java - Idea page is opened!
-[INFO ] 2024-07-19 12:31:07.683 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:07.684 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:09.009 [main] NPS-Selenium-TestNG-Java - Software link is clicked!
-[INFO ] 2024-07-19 12:31:09.024 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
-[INFO ] 2024-07-19 12:31:09.025 [main] NPS-Selenium-TestNG-Java - Software page is opened!
-[INFO ] 2024-07-19 12:31:09.140 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:09.140 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:10.605 [main] NPS-Selenium-TestNG-Java - ITStaff link is clicked!
-[INFO ] 2024-07-19 12:31:10.622 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
-[INFO ] 2024-07-19 12:31:10.622 [main] NPS-Selenium-TestNG-Java - IT Staff page is opened!
-[INFO ] 2024-07-19 12:31:10.724 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:10.724 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:12.352 [main] NPS-Selenium-TestNG-Java - Cloud link is clicked!
-[INFO ] 2024-07-19 12:31:12.368 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
-[INFO ] 2024-07-19 12:31:12.368 [main] NPS-Selenium-TestNG-Java - Cloud page is opened!
-[INFO ] 2024-07-19 12:31:12.464 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:12.464 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:13.810 [main] NPS-Selenium-TestNG-Java - AI link is clicked!
-[INFO ] 2024-07-19 12:31:13.827 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
-[INFO ] 2024-07-19 12:31:13.827 [main] NPS-Selenium-TestNG-Java - AI page is opened!
-[INFO ] 2024-07-19 12:31:13.924 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:13.924 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:15.738 [main] NPS-Selenium-TestNG-Java - BigData link is clicked!
-[INFO ] 2024-07-19 12:31:15.785 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
-[INFO ] 2024-07-19 12:31:15.785 [main] NPS-Selenium-TestNG-Java - Big data page is opened!
-[INFO ] 2024-07-19 12:31:15.921 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:15.922 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:17.652 [main] NPS-Selenium-TestNG-Java - HRA link is clicked!
-[INFO ] 2024-07-19 12:31:17.667 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
-[INFO ] 2024-07-19 12:31:17.667 [main] NPS-Selenium-TestNG-Java - HRA page is opened!
-[INFO ] 2024-07-19 12:31:17.760 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:17.760 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:19.200 [main] NPS-Selenium-TestNG-Java - ITPM link is clicked!
-[INFO ] 2024-07-19 12:31:19.439 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
-[INFO ] 2024-07-19 12:31:19.439 [main] NPS-Selenium-TestNG-Java - ITPM page is opened!
-[INFO ] 2024-07-19 12:31:19.593 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:19.593 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:21.347 [main] NPS-Selenium-TestNG-Java - Network link is clicked!
-[INFO ] 2024-07-19 12:31:21.364 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
-[INFO ] 2024-07-19 12:31:21.364 [main] NPS-Selenium-TestNG-Java - Network page is opened!
-[INFO ] 2024-07-19 12:31:21.465 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:21.465 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:31:37.835 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:31:37.835 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:31:40.064 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:31:40.237 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:31:40.933 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:31:41.139 [main] NPS-Selenium-TestNG-Java - home link is clicked!
-[INFO ] 2024-07-19 12:31:41.172 [main] NPS-Selenium-TestNG-Java - start now is displayed!
-[INFO ] 2024-07-19 12:32:10.517 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:32:10.517 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:32:12.681 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:32:12.893 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:32:13.590 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:32:13.822 [main] NPS-Selenium-TestNG-Java - About Us link is clicked!
-[INFO ] 2024-07-19 12:32:13.865 [main] NPS-Selenium-TestNG-Java - about us section is displayed!
-[INFO ] 2024-07-19 12:32:31.604 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:32:31.604 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:32:34.020 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:32:34.248 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:32:34.961 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:32:35.148 [main] NPS-Selenium-TestNG-Java - Products link is clicked!
-[INFO ] 2024-07-19 12:32:35.208 [main] NPS-Selenium-TestNG-Java - products section is displayed!
-[INFO ] 2024-07-19 12:33:05.882 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:33:05.882 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:33:08.277 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:33:08.483 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:33:09.199 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:33:09.499 [main] NPS-Selenium-TestNG-Java - Services link is clicked!
-[INFO ] 2024-07-19 12:33:09.599 [main] NPS-Selenium-TestNG-Java - services section is displayed!
-[INFO ] 2024-07-19 12:33:26.437 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:33:26.437 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:33:28.716 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:33:28.927 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:33:29.622 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:33:29.819 [main] NPS-Selenium-TestNG-Java - careers link is clicked!
-[INFO ] 2024-07-19 12:33:29.915 [main] NPS-Selenium-TestNG-Java - careers section is displayed!
-[INFO ] 2024-07-19 12:33:52.559 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:33:52.561 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:33:54.987 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:33:55.195 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:33:55.881 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:33:56.154 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
-[INFO ] 2024-07-19 12:33:56.218 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
-[INFO ] 2024-07-19 12:34:44.520 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:34:44.520 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:34:46.846 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:34:47.179 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:34:47.885 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:34:48.157 [main] NPS-Selenium-TestNG-Java - About Us link is clicked!
-[INFO ] 2024-07-19 12:34:48.212 [main] NPS-Selenium-TestNG-Java - about us section is displayed!
-[INFO ] 2024-07-19 12:34:48.349 [main] NPS-Selenium-TestNG-Java - about us section heading is displayed!
-[INFO ] 2024-07-19 12:34:48.493 [main] NPS-Selenium-TestNG-Java - about us section styles checked!
-[INFO ] 2024-07-19 12:34:48.660 [main] NPS-Selenium-TestNG-Java - about us section content highlighted!
-[INFO ] 2024-07-19 12:34:50.831 [main] NPS-Selenium-TestNG-Java - Products link is clicked!
-[INFO ] 2024-07-19 12:34:50.929 [main] NPS-Selenium-TestNG-Java - products section is displayed!
-[INFO ] 2024-07-19 12:34:51.586 [main] NPS-Selenium-TestNG-Java - products section heading is displayed!
-[INFO ] 2024-07-19 12:34:51.644 [main] NPS-Selenium-TestNG-Java - products sub heading is displayed!
-[INFO ] 2024-07-19 12:34:51.662 [main] NPS-Selenium-TestNG-Java - total 2 products avaliable!
-[INFO ] 2024-07-19 12:34:53.659 [main] NPS-Selenium-TestNG-Java - Big Data Ingension readmore link is clicked!
-[INFO ] 2024-07-19 12:34:53.673 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
-[INFO ] 2024-07-19 12:34:53.673 [main] NPS-Selenium-TestNG-Java - Big Data Ingension page is opened!
-[INFO ] 2024-07-19 12:34:53.763 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:34:53.766 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:34:54.613 [main] NPS-Selenium-TestNG-Java - DAN readmore link is clicked!
-[INFO ] 2024-07-19 12:34:54.625 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
-[INFO ] 2024-07-19 12:34:54.625 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
-[INFO ] 2024-07-19 12:34:54.739 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:34:54.739 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:34:54.771 [main] NPS-Selenium-TestNG-Java - each product content is displayed!
-[INFO ] 2024-07-19 12:34:57.019 [main] NPS-Selenium-TestNG-Java - Services link is clicked!
-[INFO ] 2024-07-19 12:34:57.074 [main] NPS-Selenium-TestNG-Java - Services section is displayed!
-[INFO ] 2024-07-19 12:34:57.741 [main] NPS-Selenium-TestNG-Java - Services section heading is displayed!
-[INFO ] 2024-07-19 12:34:57.769 [main] NPS-Selenium-TestNG-Java - total 9 Services avaliable!
-[INFO ] 2024-07-19 12:35:00.221 [main] NPS-Selenium-TestNG-Java - Your Idea readmore link is clicked!
-[INFO ] 2024-07-19 12:35:00.242 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
-[INFO ] 2024-07-19 12:35:00.242 [main] NPS-Selenium-TestNG-Java - Your Idea page is opened!
-[INFO ] 2024-07-19 12:35:00.335 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:00.336 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:02.470 [main] NPS-Selenium-TestNG-Java - Software Development readmore link is clicked!
-[INFO ] 2024-07-19 12:35:02.486 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
-[INFO ] 2024-07-19 12:35:02.486 [main] NPS-Selenium-TestNG-Java - Software Development page is opened!
-[INFO ] 2024-07-19 12:35:02.570 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:02.570 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:04.762 [main] NPS-Selenium-TestNG-Java - IT Staffing readmore link is clicked!
-[INFO ] 2024-07-19 12:35:04.776 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
-[INFO ] 2024-07-19 12:35:04.776 [main] NPS-Selenium-TestNG-Java - IT Staffing page is opened!
-[INFO ] 2024-07-19 12:35:04.880 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:04.881 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:06.927 [main] NPS-Selenium-TestNG-Java - Cloud Computing readmore link is clicked!
-[INFO ] 2024-07-19 12:35:06.943 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
-[INFO ] 2024-07-19 12:35:06.943 [main] NPS-Selenium-TestNG-Java - Cloud Computing page is opened!
-[INFO ] 2024-07-19 12:35:07.035 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:07.035 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:08.952 [main] NPS-Selenium-TestNG-Java - AI/ML readmore link is clicked!
-[INFO ] 2024-07-19 12:35:08.970 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
-[INFO ] 2024-07-19 12:35:08.970 [main] NPS-Selenium-TestNG-Java - AI/ML page is opened!
-[INFO ] 2024-07-19 12:35:09.064 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:09.065 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:10.901 [main] NPS-Selenium-TestNG-Java - BigData Analytics readmore link is clicked!
-[INFO ] 2024-07-19 12:35:10.916 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
-[INFO ] 2024-07-19 12:35:10.916 [main] NPS-Selenium-TestNG-Java - BigData Analytics page is opened!
-[INFO ] 2024-07-19 12:35:11.002 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:11.002 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:13.666 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis readmore link is clicked!
-[INFO ] 2024-07-19 12:35:13.681 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
-[INFO ] 2024-07-19 12:35:13.681 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis page is opened!
-[INFO ] 2024-07-19 12:35:13.775 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:13.775 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:16.098 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management readmore link is clicked!
-[INFO ] 2024-07-19 12:35:16.124 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
-[INFO ] 2024-07-19 12:35:16.124 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management page is opened!
-[INFO ] 2024-07-19 12:35:16.213 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:16.215 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:18.379 [main] NPS-Selenium-TestNG-Java - IT Network & Security readmore link is clicked!
-[INFO ] 2024-07-19 12:35:18.392 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
-[INFO ] 2024-07-19 12:35:18.392 [main] NPS-Selenium-TestNG-Java - IT Network & Security page is opened!
-[INFO ] 2024-07-19 12:35:18.479 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:18.479 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:35:18.505 [main] NPS-Selenium-TestNG-Java - each product content is displayed!
-[INFO ] 2024-07-19 12:35:20.696 [main] NPS-Selenium-TestNG-Java - Careers link is clicked!
-[INFO ] 2024-07-19 12:35:20.770 [main] NPS-Selenium-TestNG-Java - Careers section is displayed!
-[INFO ] 2024-07-19 12:35:20.888 [main] NPS-Selenium-TestNG-Java - Careers section heading is displayed!
-[INFO ] 2024-07-19 12:35:20.921 [main] NPS-Selenium-TestNG-Java - total 6 Services avaliable!
-[INFO ] 2024-07-19 12:35:23.577 [main] NPS-Selenium-TestNG-Java - Python-AI/ML Developer details link is clicked!
-[INFO ] 2024-07-19 12:35:26.417 [main] NPS-Selenium-TestNG-Java - PEGA Developer details link is clicked!
-[INFO ] 2024-07-19 12:35:29.268 [main] NPS-Selenium-TestNG-Java - Selenium Quality Analyst details link is clicked!
-[INFO ] 2024-07-19 12:35:31.384 [main] NPS-Selenium-TestNG-Java - Software Developer details link is clicked!
-[INFO ] 2024-07-19 12:35:33.756 [main] NPS-Selenium-TestNG-Java - Software Developer details link is clicked!
-[INFO ] 2024-07-19 12:35:36.239 [main] NPS-Selenium-TestNG-Java - Network Secuirty Engineer details link is clicked!
-[INFO ] 2024-07-19 12:35:36.720 [main] NPS-Selenium-TestNG-Java - each career content is displayed!
-[INFO ] 2024-07-19 12:35:38.959 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
-[INFO ] 2024-07-19 12:35:39.056 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
-[INFO ] 2024-07-19 12:35:39.167 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
-[INFO ] 2024-07-19 12:35:39.290 [main] NPS-Selenium-TestNG-Java - contact us sub heading is displayed!
-[INFO ] 2024-07-19 12:35:39.344 [main] NPS-Selenium-TestNG-Java - contact us form and address block are displayed!
-[INFO ] 2024-07-19 12:35:39.449 [main] NPS-Selenium-TestNG-Java - contact us address is displayed!
-[INFO ] 2024-07-19 12:35:39.540 [main] NPS-Selenium-TestNG-Java - contact us number is displayed!
-[INFO ] 2024-07-19 12:35:39.622 [main] NPS-Selenium-TestNG-Java - contact us email address is displayed!
-[INFO ] 2024-07-19 12:35:39.642 [main] NPS-Selenium-TestNG-Java - go to map iframe!
-[INFO ] 2024-07-19 12:35:41.731 [main] NPS-Selenium-TestNG-Java - switched to map iframe!
-[INFO ] 2024-07-19 12:35:41.737 [main] NPS-Selenium-TestNG-Java - move by some offset!
-[INFO ] 2024-07-19 12:35:41.737 [main] NPS-Selenium-TestNG-Java - click and  hold then move by some offset!
-[INFO ] 2024-07-19 12:35:41.908 [main] NPS-Selenium-TestNG-Java - location address found!
-[INFO ] 2024-07-19 12:35:42.435 [main] NPS-Selenium-TestNG-Java - view larger map link clicked!
-[INFO ] 2024-07-19 12:35:48.407 [main] NPS-Selenium-TestNG-Java - https://www.google.com/maps/place/Novo+ProSo,+Inc./@38.773721,-93.718164,16z/data=!4m6!3m5!1s0x87c3e3c7a0f17e3f:0x473a9fd575ad87a5!8m2!3d38.773721!4d-93.7181643!16s%2Fg%2F11fl5qn7dn?hl=en&entry=ttu
-[INFO ] 2024-07-19 12:35:48.407 [main] NPS-Selenium-TestNG-Java - switched to map page
-[INFO ] 2024-07-19 12:35:48.521 [main] NPS-Selenium-TestNG-Java - closed map page
-[INFO ] 2024-07-19 12:35:48.554 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:35:48.554 [main] NPS-Selenium-TestNG-Java - switched to main page
-[INFO ] 2024-07-19 12:36:07.712 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:36:07.712 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:36:09.894 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:36:10.075 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:36:10.744 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:36:10.922 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
-[INFO ] 2024-07-19 12:36:10.996 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
-[INFO ] 2024-07-19 12:36:12.226 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
-[INFO ] 2024-07-19 12:36:12.436 [main] NPS-Selenium-TestNG-Java - Entered name
-[INFO ] 2024-07-19 12:36:12.568 [main] NPS-Selenium-TestNG-Java - Entered email
-[INFO ] 2024-07-19 12:36:12.865 [main] NPS-Selenium-TestNG-Java - Entered subject
-[INFO ] 2024-07-19 12:36:13.045 [main] NPS-Selenium-TestNG-Java - Entered message
-[INFO ] 2024-07-19 12:36:13.361 [main] NPS-Selenium-TestNG-Java - submit button clicked!
-[INFO ] 2024-07-19 12:36:13.795 [main] NPS-Selenium-TestNG-Java - success message displayed!
-[INFO ] 2024-07-19 12:36:29.557 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:36:29.559 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:36:31.788 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:36:32.087 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:36:32.833 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:36:33.109 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
-[INFO ] 2024-07-19 12:36:36.484 [main] NPS-Selenium-TestNG-Java - Scrolled down to footer
-[INFO ] 2024-07-19 12:36:38.371 [main] NPS-Selenium-TestNG-Java - footer logo link is clicked!
-[INFO ] 2024-07-19 12:36:38.421 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/index.html
-[INFO ] 2024-07-19 12:36:38.421 [main] NPS-Selenium-TestNG-Java - main page opened!
-[INFO ] 2024-07-19 12:36:38.625 [main] NPS-Selenium-TestNG-Java - back to the same!
-[INFO ] 2024-07-19 12:36:39.012 [main] NPS-Selenium-TestNG-Java - twitter link is clicked!
-[INFO ] 2024-07-19 12:36:54.863 [main] NPS-Selenium-TestNG-Java - Switched to Url: https://x.com/i/flow/login?redirect_after_login=%2Fnovoproso
-[INFO ] 2024-07-19 12:36:55.061 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
-[INFO ] 2024-07-19 12:36:55.268 [main] NPS-Selenium-TestNG-Java - facebook link is clicked!
-[INFO ] 2024-07-19 12:36:57.178 [main] NPS-Selenium-TestNG-Java - Switched to Url: https://www.facebook.com/novoproso
-[INFO ] 2024-07-19 12:36:57.284 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
-[INFO ] 2024-07-19 12:36:58.883 [main] NPS-Selenium-TestNG-Java - linkedin link is clicked!
-[INFO ] 2024-07-19 12:36:58.898 [main] NPS-Selenium-TestNG-Java - Switched to Url: https://www.linkedin.com/company/novo-proso-inc
-[INFO ] 2024-07-19 12:36:59.018 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
-[INFO ] 2024-07-19 12:37:04.151 [main] NPS-Selenium-TestNG-Java - policy link is clicked!
-[INFO ] 2024-07-19 12:37:04.194 [main] NPS-Selenium-TestNG-Java - navigated to Url: https://novoproso.com/policy.html
-[INFO ] 2024-07-19 12:37:04.343 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
-[INFO ] 2024-07-19 12:37:06.537 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:37:07.109 [main] NPS-Selenium-TestNG-Java - copyright link is clicked!
-[INFO ] 2024-07-19 12:37:07.688 [main] NPS-Selenium-TestNG-Java - navigated to Url: https://novoproso.com/index.html
-[INFO ] 2024-07-19 12:37:07.931 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
-[INFO ] 2024-07-19 12:37:08.458 [main] NPS-Selenium-TestNG-Java - designed by link is clicked!
-[INFO ] 2024-07-19 12:37:08.855 [main] NPS-Selenium-TestNG-Java - navigated to Url: https://novoproso.com/
-[INFO ] 2024-07-19 12:37:09.001 [main] NPS-Selenium-TestNG-Java - Back to Url: data:,
-[INFO ] 2024-07-19 12:37:28.734 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:37:28.734 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:37:30.968 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:37:31.244 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:37:31.312 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:37:32.580 [main] NPS-Selenium-TestNG-Java - csr link is clicked!
-[INFO ] 2024-07-19 12:37:32.599 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/csr.html
-[INFO ] 2024-07-19 12:37:32.599 [main] NPS-Selenium-TestNG-Java - csr page is opened!
-[INFO ] 2024-07-19 12:37:33.892 [main] NPS-Selenium-TestNG-Java - Corporate Social Responsibility
-[INFO ] 2024-07-19 12:37:33.969 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:37:34.207 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:37:34.417 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:37:34.514 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:37:34.514 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:37:35.986 [main] NPS-Selenium-TestNG-Java - local sports link is clicked!
-[INFO ] 2024-07-19 12:37:36.004 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/localSports.html
-[INFO ] 2024-07-19 12:37:36.004 [main] NPS-Selenium-TestNG-Java - local sports page is opened!
-[INFO ] 2024-07-19 12:37:36.720 [main] NPS-Selenium-TestNG-Java - Local Sports Sponsorship
-[INFO ] 2024-07-19 12:37:36.850 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:37:37.207 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:37:37.518 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:37:37.631 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:37:37.631 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:37:58.162 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:37:58.162 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:38:00.488 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:38:00.866 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:38:00.956 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:38:02.405 [main] NPS-Selenium-TestNG-Java - BDIngension link is clicked!
-[INFO ] 2024-07-19 12:38:02.423 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
-[INFO ] 2024-07-19 12:38:02.423 [main] NPS-Selenium-TestNG-Java - Big data ingension page is opened!
-[INFO ] 2024-07-19 12:38:03.187 [main] NPS-Selenium-TestNG-Java - BigData-Ingension
-[INFO ] 2024-07-19 12:38:03.260 [main] NPS-Selenium-TestNG-Java - Unleashing the Power of Raw Data!
-[INFO ] 2024-07-19 12:38:03.339 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:03.647 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:04.409 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:04.507 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:04.507 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:05.692 [main] NPS-Selenium-TestNG-Java - DAN link is clicked!
-[INFO ] 2024-07-19 12:38:05.706 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
-[INFO ] 2024-07-19 12:38:05.707 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
-[INFO ] 2024-07-19 12:38:06.339 [main] NPS-Selenium-TestNG-Java - Data Analytics by Novo ProSo (DAN)
-[INFO ] 2024-07-19 12:38:06.391 [main] NPS-Selenium-TestNG-Java - Unlocking Hidden Insights!
-[INFO ] 2024-07-19 12:38:06.470 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:06.732 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:07.458 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:07.570 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:07.570 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:24.872 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:24.872 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
-[INFO ] 2024-07-19 12:38:27.186 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
-[INFO ] 2024-07-19 12:38:27.453 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
-[INFO ] 2024-07-19 12:38:27.555 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
-[INFO ] 2024-07-19 12:38:28.948 [main] NPS-Selenium-TestNG-Java - AI link is clicked!
-[INFO ] 2024-07-19 12:38:28.968 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
-[INFO ] 2024-07-19 12:38:28.968 [main] NPS-Selenium-TestNG-Java - AI page is opened!
-[INFO ] 2024-07-19 12:38:29.734 [main] NPS-Selenium-TestNG-Java - Artificial Intelligence/ Machine Learning
-[INFO ] 2024-07-19 12:38:29.803 [main] NPS-Selenium-TestNG-Java - Unlock the power of Artificial Intelligence and Machine Learning to transform your business!
-[INFO ] 2024-07-19 12:38:29.884 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:30.110 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:31.076 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:31.245 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:31.246 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:33.266 [main] NPS-Selenium-TestNG-Java - BigData link is clicked!
-[INFO ] 2024-07-19 12:38:33.290 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
-[INFO ] 2024-07-19 12:38:33.290 [main] NPS-Selenium-TestNG-Java - Big data page is opened!
-[INFO ] 2024-07-19 12:38:34.039 [main] NPS-Selenium-TestNG-Java - BigData Analytics
-[INFO ] 2024-07-19 12:38:34.123 [main] NPS-Selenium-TestNG-Java - Unlock the hidden insights in your data and drive business success with our Big Data Analytics services!
-[INFO ] 2024-07-19 12:38:34.208 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:34.516 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:35.351 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:35.457 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:35.457 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:36.949 [main] NPS-Selenium-TestNG-Java - Cloud link is clicked!
-[INFO ] 2024-07-19 12:38:36.959 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
-[INFO ] 2024-07-19 12:38:36.960 [main] NPS-Selenium-TestNG-Java - Cloud page is opened!
-[INFO ] 2024-07-19 12:38:37.655 [main] NPS-Selenium-TestNG-Java - Cloud Computing
-[INFO ] 2024-07-19 12:38:38.094 [main] NPS-Selenium-TestNG-Java - Take your business to new heights with our cloud computing services!
-[INFO ] 2024-07-19 12:38:38.171 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:38.370 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:39.265 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:39.440 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:39.442 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:41.007 [main] NPS-Selenium-TestNG-Java - HRA link is clicked!
-[INFO ] 2024-07-19 12:38:41.020 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
-[INFO ] 2024-07-19 12:38:41.020 [main] NPS-Selenium-TestNG-Java - HRA page is opened!
-[INFO ] 2024-07-19 12:38:41.710 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis
-[INFO ] 2024-07-19 12:38:42.040 [main] NPS-Selenium-TestNG-Java - Transform healthcare outcomes with data-driven insights!
-[INFO ] 2024-07-19 12:38:42.156 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:42.598 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:43.475 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:43.628 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:43.628 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:45.194 [main] NPS-Selenium-TestNG-Java - ITPM link is clicked!
-[INFO ] 2024-07-19 12:38:45.209 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
-[INFO ] 2024-07-19 12:38:45.209 [main] NPS-Selenium-TestNG-Java - ITPM page is opened!
-[INFO ] 2024-07-19 12:38:45.850 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management
-[INFO ] 2024-07-19 12:38:46.135 [main] NPS-Selenium-TestNG-Java - Deliver your IT projects on time, within budget, and with exceptional quality!
-[INFO ] 2024-07-19 12:38:46.324 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:46.669 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:47.569 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:47.708 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:47.708 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:49.272 [main] NPS-Selenium-TestNG-Java - ITStaff link is clicked!
-[INFO ] 2024-07-19 12:38:49.287 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
-[INFO ] 2024-07-19 12:38:49.287 [main] NPS-Selenium-TestNG-Java - IT Staff page is opened!
-[INFO ] 2024-07-19 12:38:49.940 [main] NPS-Selenium-TestNG-Java - IT Staffing
-[INFO ] 2024-07-19 12:38:50.039 [main] NPS-Selenium-TestNG-Java - Unlock your IT project potential with our tailored staffing solutions—let's build your winning team!
-[INFO ] 2024-07-19 12:38:50.153 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:50.473 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:51.380 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:51.533 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:51.533 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:53.182 [main] NPS-Selenium-TestNG-Java - Idea link is clicked!
-[INFO ] 2024-07-19 12:38:53.196 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
-[INFO ] 2024-07-19 12:38:53.196 [main] NPS-Selenium-TestNG-Java - Idea page is opened!
-[INFO ] 2024-07-19 12:38:53.932 [main] NPS-Selenium-TestNG-Java - Your Own Idea
-[INFO ] 2024-07-19 12:38:54.879 [main] NPS-Selenium-TestNG-Java - Bring Your Vision to Life!
-[INFO ] 2024-07-19 12:38:55.021 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:55.339 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:56.138 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:38:56.275 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:38:56.275 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:38:57.668 [main] NPS-Selenium-TestNG-Java - Network link is clicked!
-[INFO ] 2024-07-19 12:38:57.682 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
-[INFO ] 2024-07-19 12:38:57.683 [main] NPS-Selenium-TestNG-Java - Network page is opened!
-[INFO ] 2024-07-19 12:38:58.406 [main] NPS-Selenium-TestNG-Java - IT Network & Security
-[INFO ] 2024-07-19 12:38:58.704 [main] NPS-Selenium-TestNG-Java - Protect your business from cyber threats and optimize your network performance with our comprehensive IT network and security services!
-[INFO ] 2024-07-19 12:38:58.844 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:38:59.064 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:38:59.948 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:39:00.129 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:39:00.129 [main] NPS-Selenium-TestNG-Java - back to main page!
-[INFO ] 2024-07-19 12:39:01.703 [main] NPS-Selenium-TestNG-Java - Software link is clicked!
-[INFO ] 2024-07-19 12:39:01.914 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
-[INFO ] 2024-07-19 12:39:01.914 [main] NPS-Selenium-TestNG-Java - Software page is opened!
-[INFO ] 2024-07-19 12:39:02.670 [main] NPS-Selenium-TestNG-Java - Software Development
-[INFO ] 2024-07-19 12:39:02.798 [main] NPS-Selenium-TestNG-Java - We design custom software to boost your business using the latest tech and agile methods!
-[INFO ] 2024-07-19 12:39:02.983 [main] NPS-Selenium-TestNG-Java - image is displayed!
-[INFO ] 2024-07-19 12:39:03.304 [main] NPS-Selenium-TestNG-Java - content is displayed!
-[INFO ] 2024-07-19 12:39:04.202 [main] NPS-Selenium-TestNG-Java - footer is displayed!
-[INFO ] 2024-07-19 12:39:05.044 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
-[INFO ] 2024-07-19 12:39:05.044 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:56:01.911 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:56:01.911 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 14:56:04.162 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 14:56:04.251 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 14:56:04.948 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 14:56:05.191 [main] NPS-Selenium-TestNG-Java - About Us link is clicked!
+[INFO ] 2024-07-21 14:56:05.239 [main] NPS-Selenium-TestNG-Java - about us section is displayed!
+[INFO ] 2024-07-21 14:56:05.499 [main] NPS-Selenium-TestNG-Java - Products link is clicked!
+[INFO ] 2024-07-21 14:56:05.592 [main] NPS-Selenium-TestNG-Java - products section is displayed!
+[INFO ] 2024-07-21 14:56:05.766 [main] NPS-Selenium-TestNG-Java - Services link is clicked!
+[INFO ] 2024-07-21 14:56:05.813 [main] NPS-Selenium-TestNG-Java - services section is displayed!
+[INFO ] 2024-07-21 14:56:05.957 [main] NPS-Selenium-TestNG-Java - careers link is clicked!
+[INFO ] 2024-07-21 14:56:06.074 [main] NPS-Selenium-TestNG-Java - careers section is displayed!
+[INFO ] 2024-07-21 14:56:06.299 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
+[INFO ] 2024-07-21 14:56:06.389 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
+[INFO ] 2024-07-21 14:56:23.835 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:56:23.835 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 14:56:26.005 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 14:56:26.087 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 14:56:26.781 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 14:56:27.484 [main] NPS-Selenium-TestNG-Java - hovered over About Us link and its dropdown is visible!
+[INFO ] 2024-07-21 14:56:28.208 [main] NPS-Selenium-TestNG-Java - hovered over Products link and its dropdown is visible!
+[INFO ] 2024-07-21 14:56:28.906 [main] NPS-Selenium-TestNG-Java - hovered over Services link and its dropdown is visible!
+[INFO ] 2024-07-21 14:56:56.970 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:56:56.970 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 14:56:59.157 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 14:56:59.242 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 14:56:59.905 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 14:57:01.411 [main] NPS-Selenium-TestNG-Java - csr link is clicked!
+[INFO ] 2024-07-21 14:57:01.429 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/csr.html
+[INFO ] 2024-07-21 14:57:01.429 [main] NPS-Selenium-TestNG-Java - csr page is opened!
+[INFO ] 2024-07-21 14:57:01.559 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:01.563 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:03.216 [main] NPS-Selenium-TestNG-Java - local sports link is clicked!
+[INFO ] 2024-07-21 14:57:03.236 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/localSports.html
+[INFO ] 2024-07-21 14:57:03.237 [main] NPS-Selenium-TestNG-Java - local sports page is opened!
+[INFO ] 2024-07-21 14:57:03.330 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:03.330 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:05.584 [main] NPS-Selenium-TestNG-Java - DAN link is clicked!
+[INFO ] 2024-07-21 14:57:05.611 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
+[INFO ] 2024-07-21 14:57:05.612 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
+[INFO ] 2024-07-21 14:57:05.712 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:05.713 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:07.090 [main] NPS-Selenium-TestNG-Java - BDIngension link is clicked!
+[INFO ] 2024-07-21 14:57:07.108 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
+[INFO ] 2024-07-21 14:57:07.108 [main] NPS-Selenium-TestNG-Java - Big data ingension page is opened!
+[INFO ] 2024-07-21 14:57:07.218 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:07.219 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:10.203 [main] NPS-Selenium-TestNG-Java - Idea link is clicked!
+[INFO ] 2024-07-21 14:57:10.222 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
+[INFO ] 2024-07-21 14:57:10.222 [main] NPS-Selenium-TestNG-Java - Idea page is opened!
+[INFO ] 2024-07-21 14:57:10.317 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:10.318 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:11.370 [main] NPS-Selenium-TestNG-Java - Software link is clicked!
+[INFO ] 2024-07-21 14:57:11.390 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
+[INFO ] 2024-07-21 14:57:11.390 [main] NPS-Selenium-TestNG-Java - Software page is opened!
+[INFO ] 2024-07-21 14:57:11.506 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:11.509 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:12.678 [main] NPS-Selenium-TestNG-Java - ITStaff link is clicked!
+[INFO ] 2024-07-21 14:57:12.694 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
+[INFO ] 2024-07-21 14:57:12.694 [main] NPS-Selenium-TestNG-Java - IT Staff page is opened!
+[INFO ] 2024-07-21 14:57:12.793 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:12.793 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:14.649 [main] NPS-Selenium-TestNG-Java - Cloud link is clicked!
+[INFO ] 2024-07-21 14:57:14.668 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
+[INFO ] 2024-07-21 14:57:14.668 [main] NPS-Selenium-TestNG-Java - Cloud page is opened!
+[INFO ] 2024-07-21 14:57:14.748 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:14.748 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:15.399 [main] NPS-Selenium-TestNG-Java - AI link is clicked!
+[INFO ] 2024-07-21 14:57:15.416 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
+[INFO ] 2024-07-21 14:57:15.416 [main] NPS-Selenium-TestNG-Java - AI page is opened!
+[INFO ] 2024-07-21 14:57:15.498 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:15.498 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:16.089 [main] NPS-Selenium-TestNG-Java - BigData link is clicked!
+[INFO ] 2024-07-21 14:57:16.105 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
+[INFO ] 2024-07-21 14:57:16.106 [main] NPS-Selenium-TestNG-Java - Big data page is opened!
+[INFO ] 2024-07-21 14:57:16.203 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:16.204 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:16.803 [main] NPS-Selenium-TestNG-Java - HRA link is clicked!
+[INFO ] 2024-07-21 14:57:16.817 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
+[INFO ] 2024-07-21 14:57:16.817 [main] NPS-Selenium-TestNG-Java - HRA page is opened!
+[INFO ] 2024-07-21 14:57:16.897 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:16.897 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:17.505 [main] NPS-Selenium-TestNG-Java - ITPM link is clicked!
+[INFO ] 2024-07-21 14:57:17.526 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
+[INFO ] 2024-07-21 14:57:17.526 [main] NPS-Selenium-TestNG-Java - ITPM page is opened!
+[INFO ] 2024-07-21 14:57:17.620 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:17.620 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:18.239 [main] NPS-Selenium-TestNG-Java - Network link is clicked!
+[INFO ] 2024-07-21 14:57:18.256 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
+[INFO ] 2024-07-21 14:57:18.256 [main] NPS-Selenium-TestNG-Java - Network page is opened!
+[INFO ] 2024-07-21 14:57:18.370 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:18.370 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:32.154 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:32.154 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 14:57:34.310 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 14:57:34.396 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 14:57:35.046 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 14:57:35.197 [main] NPS-Selenium-TestNG-Java - About Us link is clicked!
+[INFO ] 2024-07-21 14:57:35.236 [main] NPS-Selenium-TestNG-Java - about us section is displayed!
+[INFO ] 2024-07-21 14:57:35.344 [main] NPS-Selenium-TestNG-Java - about us section heading is displayed!
+[INFO ] 2024-07-21 14:57:35.510 [main] NPS-Selenium-TestNG-Java - about us section styles checked!
+[INFO ] 2024-07-21 14:57:35.621 [main] NPS-Selenium-TestNG-Java - about us section content highlighted!
+[INFO ] 2024-07-21 14:57:35.748 [main] NPS-Selenium-TestNG-Java - Products link is clicked!
+[INFO ] 2024-07-21 14:57:35.790 [main] NPS-Selenium-TestNG-Java - products section is displayed!
+[INFO ] 2024-07-21 14:57:38.036 [main] NPS-Selenium-TestNG-Java - products section heading is displayed!
+[INFO ] 2024-07-21 14:57:38.093 [main] NPS-Selenium-TestNG-Java - products sub heading is displayed!
+[INFO ] 2024-07-21 14:57:38.113 [main] NPS-Selenium-TestNG-Java - total 2 products avaliable!
+[INFO ] 2024-07-21 14:57:39.411 [main] NPS-Selenium-TestNG-Java - Big Data Ingension readmore link is clicked!
+[INFO ] 2024-07-21 14:57:39.439 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
+[INFO ] 2024-07-21 14:57:39.440 [main] NPS-Selenium-TestNG-Java - Big Data Ingension page is opened!
+[INFO ] 2024-07-21 14:57:39.539 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:39.539 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:40.336 [main] NPS-Selenium-TestNG-Java - DAN readmore link is clicked!
+[INFO ] 2024-07-21 14:57:40.354 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
+[INFO ] 2024-07-21 14:57:40.354 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
+[INFO ] 2024-07-21 14:57:40.477 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:40.477 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:40.503 [main] NPS-Selenium-TestNG-Java - each product content is displayed!
+[INFO ] 2024-07-21 14:57:40.617 [main] NPS-Selenium-TestNG-Java - Services link is clicked!
+[INFO ] 2024-07-21 14:57:40.671 [main] NPS-Selenium-TestNG-Java - Services section is displayed!
+[INFO ] 2024-07-21 14:57:41.858 [main] NPS-Selenium-TestNG-Java - Services section heading is displayed!
+[INFO ] 2024-07-21 14:57:41.874 [main] NPS-Selenium-TestNG-Java - total 9 Services avaliable!
+[INFO ] 2024-07-21 14:57:43.883 [main] NPS-Selenium-TestNG-Java - Your Idea readmore link is clicked!
+[INFO ] 2024-07-21 14:57:43.899 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
+[INFO ] 2024-07-21 14:57:43.899 [main] NPS-Selenium-TestNG-Java - Your Idea page is opened!
+[INFO ] 2024-07-21 14:57:43.976 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:43.976 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:45.693 [main] NPS-Selenium-TestNG-Java - Software Development readmore link is clicked!
+[INFO ] 2024-07-21 14:57:45.711 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
+[INFO ] 2024-07-21 14:57:45.711 [main] NPS-Selenium-TestNG-Java - Software Development page is opened!
+[INFO ] 2024-07-21 14:57:45.789 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:45.789 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:47.543 [main] NPS-Selenium-TestNG-Java - IT Staffing readmore link is clicked!
+[INFO ] 2024-07-21 14:57:47.558 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
+[INFO ] 2024-07-21 14:57:47.559 [main] NPS-Selenium-TestNG-Java - IT Staffing page is opened!
+[INFO ] 2024-07-21 14:57:47.640 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:47.640 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:49.370 [main] NPS-Selenium-TestNG-Java - Cloud Computing readmore link is clicked!
+[INFO ] 2024-07-21 14:57:49.386 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
+[INFO ] 2024-07-21 14:57:49.387 [main] NPS-Selenium-TestNG-Java - Cloud Computing page is opened!
+[INFO ] 2024-07-21 14:57:49.501 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:49.501 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:51.218 [main] NPS-Selenium-TestNG-Java - AI/ML readmore link is clicked!
+[INFO ] 2024-07-21 14:57:51.235 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
+[INFO ] 2024-07-21 14:57:51.235 [main] NPS-Selenium-TestNG-Java - AI/ML page is opened!
+[INFO ] 2024-07-21 14:57:51.318 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:51.318 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:53.073 [main] NPS-Selenium-TestNG-Java - BigData Analytics readmore link is clicked!
+[INFO ] 2024-07-21 14:57:53.088 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
+[INFO ] 2024-07-21 14:57:53.088 [main] NPS-Selenium-TestNG-Java - BigData Analytics page is opened!
+[INFO ] 2024-07-21 14:57:53.165 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:53.165 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:54.884 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis readmore link is clicked!
+[INFO ] 2024-07-21 14:57:54.902 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
+[INFO ] 2024-07-21 14:57:54.903 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis page is opened!
+[INFO ] 2024-07-21 14:57:54.983 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:54.983 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:56.684 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management readmore link is clicked!
+[INFO ] 2024-07-21 14:57:56.699 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
+[INFO ] 2024-07-21 14:57:56.699 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management page is opened!
+[INFO ] 2024-07-21 14:57:56.780 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:56.781 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:58.497 [main] NPS-Selenium-TestNG-Java - IT Network & Security readmore link is clicked!
+[INFO ] 2024-07-21 14:57:58.512 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
+[INFO ] 2024-07-21 14:57:58.512 [main] NPS-Selenium-TestNG-Java - IT Network & Security page is opened!
+[INFO ] 2024-07-21 14:57:58.607 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:57:58.607 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:57:58.625 [main] NPS-Selenium-TestNG-Java - each product content is displayed!
+[INFO ] 2024-07-21 14:57:58.726 [main] NPS-Selenium-TestNG-Java - Careers link is clicked!
+[INFO ] 2024-07-21 14:57:58.775 [main] NPS-Selenium-TestNG-Java - Careers section is displayed!
+[INFO ] 2024-07-21 14:57:58.861 [main] NPS-Selenium-TestNG-Java - Careers section heading is displayed!
+[INFO ] 2024-07-21 14:57:58.877 [main] NPS-Selenium-TestNG-Java - total 6 Services avaliable!
+[INFO ] 2024-07-21 14:58:01.719 [main] NPS-Selenium-TestNG-Java - Python-AI/ML Developer details link is clicked!
+[INFO ] 2024-07-21 14:58:03.583 [main] NPS-Selenium-TestNG-Java - PEGA Developer details link is clicked!
+[INFO ] 2024-07-21 14:58:05.450 [main] NPS-Selenium-TestNG-Java - Selenium Quality Analyst details link is clicked!
+[INFO ] 2024-07-21 14:58:07.243 [main] NPS-Selenium-TestNG-Java - Software Developer details link is clicked!
+[INFO ] 2024-07-21 14:58:09.030 [main] NPS-Selenium-TestNG-Java - Software Developer details link is clicked!
+[INFO ] 2024-07-21 14:58:10.860 [main] NPS-Selenium-TestNG-Java - Network Secuirty Engineer details link is clicked!
+[INFO ] 2024-07-21 14:58:11.122 [main] NPS-Selenium-TestNG-Java - each career content is displayed!
+[INFO ] 2024-07-21 14:58:11.226 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
+[INFO ] 2024-07-21 14:58:11.276 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
+[INFO ] 2024-07-21 14:58:11.359 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
+[INFO ] 2024-07-21 14:58:11.402 [main] NPS-Selenium-TestNG-Java - contact us sub heading is displayed!
+[INFO ] 2024-07-21 14:58:11.457 [main] NPS-Selenium-TestNG-Java - contact us form and address block are displayed!
+[INFO ] 2024-07-21 14:58:11.503 [main] NPS-Selenium-TestNG-Java - contact us address is displayed!
+[INFO ] 2024-07-21 14:58:11.543 [main] NPS-Selenium-TestNG-Java - contact us number is displayed!
+[INFO ] 2024-07-21 14:58:11.588 [main] NPS-Selenium-TestNG-Java - contact us email address is displayed!
+[INFO ] 2024-07-21 14:58:11.604 [main] NPS-Selenium-TestNG-Java - go to map iframe!
+[INFO ] 2024-07-21 14:58:13.667 [main] NPS-Selenium-TestNG-Java - switched to map iframe!
+[INFO ] 2024-07-21 14:58:13.676 [main] NPS-Selenium-TestNG-Java - move by some offset!
+[INFO ] 2024-07-21 14:58:13.677 [main] NPS-Selenium-TestNG-Java - click and  hold then move by some offset!
+[INFO ] 2024-07-21 14:58:13.726 [main] NPS-Selenium-TestNG-Java - location address found!
+[INFO ] 2024-07-21 14:58:13.999 [main] NPS-Selenium-TestNG-Java - view larger map link clicked!
+[INFO ] 2024-07-21 14:58:20.289 [main] NPS-Selenium-TestNG-Java - https://www.google.com/maps/place/Novo+ProSo,+Inc./@38.773721,-93.718164,16z/data=!4m6!3m5!1s0x87c3e3c7a0f17e3f:0x473a9fd575ad87a5!8m2!3d38.773721!4d-93.7181643!16s%2Fg%2F11fl5qn7dn?hl=en&entry=ttu
+[INFO ] 2024-07-21 14:58:20.290 [main] NPS-Selenium-TestNG-Java - switched to map page
+[INFO ] 2024-07-21 14:58:20.350 [main] NPS-Selenium-TestNG-Java - closed map page
+[INFO ] 2024-07-21 14:58:20.366 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:20.367 [main] NPS-Selenium-TestNG-Java - switched to main page
+[INFO ] 2024-07-21 14:58:39.411 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:39.411 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 14:58:41.538 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 14:58:41.619 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 14:58:42.317 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 14:58:43.538 [main] NPS-Selenium-TestNG-Java - csr link is clicked!
+[INFO ] 2024-07-21 14:58:43.548 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/csr.html
+[INFO ] 2024-07-21 14:58:43.549 [main] NPS-Selenium-TestNG-Java - csr page is opened!
+[INFO ] 2024-07-21 14:58:44.202 [main] NPS-Selenium-TestNG-Java - Corporate Social Responsibility
+[INFO ] 2024-07-21 14:58:44.237 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:58:44.354 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:58:44.486 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:58:44.566 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:44.566 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:58:45.182 [main] NPS-Selenium-TestNG-Java - local sports link is clicked!
+[INFO ] 2024-07-21 14:58:45.198 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/localSports.html
+[INFO ] 2024-07-21 14:58:45.198 [main] NPS-Selenium-TestNG-Java - local sports page is opened!
+[INFO ] 2024-07-21 14:58:45.870 [main] NPS-Selenium-TestNG-Java - Local Sports Sponsorship
+[INFO ] 2024-07-21 14:58:45.906 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:58:45.999 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:58:46.097 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:58:46.194 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:46.194 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:58:47.360 [main] NPS-Selenium-TestNG-Java - BDIngension link is clicked!
+[INFO ] 2024-07-21 14:58:47.379 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
+[INFO ] 2024-07-21 14:58:47.380 [main] NPS-Selenium-TestNG-Java - Big data ingension page is opened!
+[INFO ] 2024-07-21 14:58:48.038 [main] NPS-Selenium-TestNG-Java - BigData-Ingension
+[INFO ] 2024-07-21 14:58:48.092 [main] NPS-Selenium-TestNG-Java - Unleashing the Power of Raw Data!
+[INFO ] 2024-07-21 14:58:48.146 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:58:48.344 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:58:49.044 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:58:49.135 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:49.136 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:58:49.738 [main] NPS-Selenium-TestNG-Java - DAN link is clicked!
+[INFO ] 2024-07-21 14:58:49.757 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
+[INFO ] 2024-07-21 14:58:49.757 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
+[INFO ] 2024-07-21 14:58:50.438 [main] NPS-Selenium-TestNG-Java - Data Analytics by Novo ProSo (DAN)
+[INFO ] 2024-07-21 14:58:50.481 [main] NPS-Selenium-TestNG-Java - Unlocking Hidden Insights!
+[INFO ] 2024-07-21 14:58:50.530 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:58:50.711 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:58:51.325 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:58:51.426 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:51.426 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:58:53.176 [main] NPS-Selenium-TestNG-Java - AI link is clicked!
+[INFO ] 2024-07-21 14:58:53.193 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
+[INFO ] 2024-07-21 14:58:53.193 [main] NPS-Selenium-TestNG-Java - AI page is opened!
+[INFO ] 2024-07-21 14:58:53.831 [main] NPS-Selenium-TestNG-Java - Artificial Intelligence/ Machine Learning
+[INFO ] 2024-07-21 14:58:53.871 [main] NPS-Selenium-TestNG-Java - Unlock the power of Artificial Intelligence and Machine Learning to transform your business!
+[INFO ] 2024-07-21 14:58:53.919 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:58:54.059 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:58:54.689 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:58:54.786 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:54.786 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:58:55.353 [main] NPS-Selenium-TestNG-Java - BigData link is clicked!
+[INFO ] 2024-07-21 14:58:55.369 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
+[INFO ] 2024-07-21 14:58:55.369 [main] NPS-Selenium-TestNG-Java - Big data page is opened!
+[INFO ] 2024-07-21 14:58:56.036 [main] NPS-Selenium-TestNG-Java - BigData Analytics
+[INFO ] 2024-07-21 14:58:56.075 [main] NPS-Selenium-TestNG-Java - Unlock the hidden insights in your data and drive business success with our Big Data Analytics services!
+[INFO ] 2024-07-21 14:58:56.126 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:58:56.302 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:58:57.037 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:58:57.141 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:57.141 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:58:57.772 [main] NPS-Selenium-TestNG-Java - Cloud link is clicked!
+[INFO ] 2024-07-21 14:58:57.792 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
+[INFO ] 2024-07-21 14:58:57.792 [main] NPS-Selenium-TestNG-Java - Cloud page is opened!
+[INFO ] 2024-07-21 14:58:58.378 [main] NPS-Selenium-TestNG-Java - Cloud Computing
+[INFO ] 2024-07-21 14:58:58.415 [main] NPS-Selenium-TestNG-Java - Take your business to new heights with our cloud computing services!
+[INFO ] 2024-07-21 14:58:58.468 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:58:58.615 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:58:59.367 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:58:59.453 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:58:59.453 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:59:00.049 [main] NPS-Selenium-TestNG-Java - HRA link is clicked!
+[INFO ] 2024-07-21 14:59:00.064 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
+[INFO ] 2024-07-21 14:59:00.064 [main] NPS-Selenium-TestNG-Java - HRA page is opened!
+[INFO ] 2024-07-21 14:59:00.681 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis
+[INFO ] 2024-07-21 14:59:00.715 [main] NPS-Selenium-TestNG-Java - Transform healthcare outcomes with data-driven insights!
+[INFO ] 2024-07-21 14:59:00.763 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:59:00.949 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:59:01.574 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:59:01.680 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:59:01.680 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:59:02.251 [main] NPS-Selenium-TestNG-Java - ITPM link is clicked!
+[INFO ] 2024-07-21 14:59:02.268 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
+[INFO ] 2024-07-21 14:59:02.268 [main] NPS-Selenium-TestNG-Java - ITPM page is opened!
+[INFO ] 2024-07-21 14:59:02.904 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management
+[INFO ] 2024-07-21 14:59:02.938 [main] NPS-Selenium-TestNG-Java - Deliver your IT projects on time, within budget, and with exceptional quality!
+[INFO ] 2024-07-21 14:59:02.988 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:59:03.126 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:59:03.802 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:59:03.906 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:59:03.908 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:59:04.497 [main] NPS-Selenium-TestNG-Java - ITStaff link is clicked!
+[INFO ] 2024-07-21 14:59:04.508 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
+[INFO ] 2024-07-21 14:59:04.509 [main] NPS-Selenium-TestNG-Java - IT Staff page is opened!
+[INFO ] 2024-07-21 14:59:05.202 [main] NPS-Selenium-TestNG-Java - IT Staffing
+[INFO ] 2024-07-21 14:59:05.263 [main] NPS-Selenium-TestNG-Java - Unlock your IT project potential with our tailored staffing solutions—let's build your winning team!
+[INFO ] 2024-07-21 14:59:05.314 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:59:05.435 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:59:06.208 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:59:06.317 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:59:06.317 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:59:06.887 [main] NPS-Selenium-TestNG-Java - Idea link is clicked!
+[INFO ] 2024-07-21 14:59:06.903 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
+[INFO ] 2024-07-21 14:59:06.903 [main] NPS-Selenium-TestNG-Java - Idea page is opened!
+[INFO ] 2024-07-21 14:59:07.524 [main] NPS-Selenium-TestNG-Java - Your Own Idea
+[INFO ] 2024-07-21 14:59:07.559 [main] NPS-Selenium-TestNG-Java - Bring Your Vision to Life!
+[INFO ] 2024-07-21 14:59:07.610 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:59:07.758 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:59:08.445 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:59:08.547 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:59:08.547 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:59:09.700 [main] NPS-Selenium-TestNG-Java - Network link is clicked!
+[INFO ] 2024-07-21 14:59:09.716 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
+[INFO ] 2024-07-21 14:59:09.716 [main] NPS-Selenium-TestNG-Java - Network page is opened!
+[INFO ] 2024-07-21 14:59:10.382 [main] NPS-Selenium-TestNG-Java - IT Network & Security
+[INFO ] 2024-07-21 14:59:10.428 [main] NPS-Selenium-TestNG-Java - Protect your business from cyber threats and optimize your network performance with our comprehensive IT network and security services!
+[INFO ] 2024-07-21 14:59:10.475 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:59:10.606 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:59:11.294 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:59:11.419 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:59:11.420 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:59:12.059 [main] NPS-Selenium-TestNG-Java - Software link is clicked!
+[INFO ] 2024-07-21 14:59:12.076 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
+[INFO ] 2024-07-21 14:59:12.076 [main] NPS-Selenium-TestNG-Java - Software page is opened!
+[INFO ] 2024-07-21 14:59:12.710 [main] NPS-Selenium-TestNG-Java - Software Development
+[INFO ] 2024-07-21 14:59:12.745 [main] NPS-Selenium-TestNG-Java - We design custom software to boost your business using the latest tech and agile methods!
+[INFO ] 2024-07-21 14:59:12.796 [main] NPS-Selenium-TestNG-Java - image is displayed!
+[INFO ] 2024-07-21 14:59:12.910 [main] NPS-Selenium-TestNG-Java - content is displayed!
+[INFO ] 2024-07-21 14:59:13.604 [main] NPS-Selenium-TestNG-Java - footer is displayed!
+[INFO ] 2024-07-21 14:59:13.694 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:59:13.694 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 14:59:36.190 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 14:59:36.190 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 14:59:38.419 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 14:59:38.495 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 14:59:39.153 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 14:59:39.303 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
+[INFO ] 2024-07-21 14:59:39.370 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
+[INFO ] 2024-07-21 14:59:40.578 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
+[INFO ] 2024-07-21 14:59:40.843 [main] NPS-Selenium-TestNG-Java - Entered name
+[INFO ] 2024-07-21 14:59:40.991 [main] NPS-Selenium-TestNG-Java - Entered email
+[INFO ] 2024-07-21 14:59:41.156 [main] NPS-Selenium-TestNG-Java - Entered subject
+[INFO ] 2024-07-21 14:59:41.259 [main] NPS-Selenium-TestNG-Java - Entered message
+[INFO ] 2024-07-21 14:59:41.466 [main] NPS-Selenium-TestNG-Java - submit button clicked!
+[INFO ] 2024-07-21 14:59:41.855 [main] NPS-Selenium-TestNG-Java - success message displayed!
+[INFO ] 2024-07-21 15:00:01.532 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:00:01.532 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 15:00:03.670 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 15:00:03.783 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 15:00:04.418 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 15:00:04.542 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
+[INFO ] 2024-07-21 15:00:08.394 [main] NPS-Selenium-TestNG-Java - Scrolled down to footer
+[INFO ] 2024-07-21 15:00:10.369 [main] NPS-Selenium-TestNG-Java - footer logo link is clicked!
+[INFO ] 2024-07-21 15:00:10.399 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/index.html
+[INFO ] 2024-07-21 15:00:10.399 [main] NPS-Selenium-TestNG-Java - main page opened!
+[INFO ] 2024-07-21 15:00:10.547 [main] NPS-Selenium-TestNG-Java - back to the same!
+[INFO ] 2024-07-21 15:00:10.783 [main] NPS-Selenium-TestNG-Java - twitter link is clicked!
+[INFO ] 2024-07-21 15:00:18.164 [main] NPS-Selenium-TestNG-Java - Switched to Url: https://x.com/i/flow/login?redirect_after_login=%2Fnovoproso
+[INFO ] 2024-07-21 15:00:18.256 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
+[INFO ] 2024-07-21 15:00:18.565 [main] NPS-Selenium-TestNG-Java - facebook link is clicked!
+[INFO ] 2024-07-21 15:00:23.408 [main] NPS-Selenium-TestNG-Java - Switched to Url: https://www.facebook.com/novoproso
+[INFO ] 2024-07-21 15:00:23.545 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
+[INFO ] 2024-07-21 15:00:26.019 [main] NPS-Selenium-TestNG-Java - linkedin link is clicked!
+[INFO ] 2024-07-21 15:00:26.042 [main] NPS-Selenium-TestNG-Java - Switched to Url: https://www.linkedin.com/company/novo-proso-inc
+[INFO ] 2024-07-21 15:00:26.246 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
+[INFO ] 2024-07-21 15:00:31.529 [main] NPS-Selenium-TestNG-Java - policy link is clicked!
+[INFO ] 2024-07-21 15:00:31.578 [main] NPS-Selenium-TestNG-Java - navigated to Url: https://novoproso.com/policy.html
+[INFO ] 2024-07-21 15:00:31.716 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
+[INFO ] 2024-07-21 15:00:34.246 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 15:00:34.646 [main] NPS-Selenium-TestNG-Java - copyright link is clicked!
+[INFO ] 2024-07-21 15:00:35.766 [main] NPS-Selenium-TestNG-Java - navigated to Url: https://novoproso.com/index.html
+[INFO ] 2024-07-21 15:00:35.908 [main] NPS-Selenium-TestNG-Java - Back to Url: https://novoproso.com/
+[INFO ] 2024-07-21 15:00:36.363 [main] NPS-Selenium-TestNG-Java - designed by link is clicked!
+[INFO ] 2024-07-21 15:00:36.739 [main] NPS-Selenium-TestNG-Java - navigated to Url: https://novoproso.com/
+[INFO ] 2024-07-21 15:00:36.828 [main] NPS-Selenium-TestNG-Java - Back to Url: data:,
+[INFO ] 2024-07-21 15:00:57.851 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:00:57.851 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 15:01:00.042 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 15:01:00.124 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 15:01:00.797 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 15:01:01.479 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:01:03.247 [main] NPS-Selenium-TestNG-Java - csr link is clicked!
+[INFO ] 2024-07-21 15:01:03.257 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/csr.html
+[INFO ] 2024-07-21 15:01:03.257 [main] NPS-Selenium-TestNG-Java - csr page is opened!
+[INFO ] 2024-07-21 15:01:03.295 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:03.295 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:05.481 [main] NPS-Selenium-TestNG-Java - local sports link is clicked!
+[INFO ] 2024-07-21 15:01:05.496 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/localSports.html
+[INFO ] 2024-07-21 15:01:05.496 [main] NPS-Selenium-TestNG-Java - local sports page is opened!
+[INFO ] 2024-07-21 15:01:05.595 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:05.595 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:06.749 [main] NPS-Selenium-TestNG-Java - DAN link is clicked!
+[INFO ] 2024-07-21 15:01:06.759 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
+[INFO ] 2024-07-21 15:01:06.759 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
+[INFO ] 2024-07-21 15:01:06.858 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:06.858 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:07.424 [main] NPS-Selenium-TestNG-Java - BDIngension link is clicked!
+[INFO ] 2024-07-21 15:01:07.438 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
+[INFO ] 2024-07-21 15:01:07.439 [main] NPS-Selenium-TestNG-Java - Big data ingension page is opened!
+[INFO ] 2024-07-21 15:01:07.499 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:07.499 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:08.617 [main] NPS-Selenium-TestNG-Java - Idea link is clicked!
+[INFO ] 2024-07-21 15:01:08.633 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
+[INFO ] 2024-07-21 15:01:08.633 [main] NPS-Selenium-TestNG-Java - Idea page is opened!
+[INFO ] 2024-07-21 15:01:08.734 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:08.734 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:09.313 [main] NPS-Selenium-TestNG-Java - Software link is clicked!
+[INFO ] 2024-07-21 15:01:09.324 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
+[INFO ] 2024-07-21 15:01:09.324 [main] NPS-Selenium-TestNG-Java - Software page is opened!
+[INFO ] 2024-07-21 15:01:09.406 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:09.406 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:10.435 [main] NPS-Selenium-TestNG-Java - ITStaff link is clicked!
+[INFO ] 2024-07-21 15:01:10.450 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
+[INFO ] 2024-07-21 15:01:10.450 [main] NPS-Selenium-TestNG-Java - IT Staff page is opened!
+[INFO ] 2024-07-21 15:01:10.532 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:10.532 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:11.117 [main] NPS-Selenium-TestNG-Java - Cloud link is clicked!
+[INFO ] 2024-07-21 15:01:11.130 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
+[INFO ] 2024-07-21 15:01:11.130 [main] NPS-Selenium-TestNG-Java - Cloud page is opened!
+[INFO ] 2024-07-21 15:01:11.218 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:11.218 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:12.686 [main] NPS-Selenium-TestNG-Java - AI link is clicked!
+[INFO ] 2024-07-21 15:01:12.702 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
+[INFO ] 2024-07-21 15:01:12.702 [main] NPS-Selenium-TestNG-Java - AI page is opened!
+[INFO ] 2024-07-21 15:01:12.782 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:12.782 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:13.342 [main] NPS-Selenium-TestNG-Java - BigData link is clicked!
+[INFO ] 2024-07-21 15:01:13.352 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
+[INFO ] 2024-07-21 15:01:13.352 [main] NPS-Selenium-TestNG-Java - Big data page is opened!
+[INFO ] 2024-07-21 15:01:13.435 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:13.435 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:14.016 [main] NPS-Selenium-TestNG-Java - HRA link is clicked!
+[INFO ] 2024-07-21 15:01:14.029 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
+[INFO ] 2024-07-21 15:01:14.030 [main] NPS-Selenium-TestNG-Java - HRA page is opened!
+[INFO ] 2024-07-21 15:01:14.111 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:14.112 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:15.134 [main] NPS-Selenium-TestNG-Java - ITPM link is clicked!
+[INFO ] 2024-07-21 15:01:15.150 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
+[INFO ] 2024-07-21 15:01:15.150 [main] NPS-Selenium-TestNG-Java - ITPM page is opened!
+[INFO ] 2024-07-21 15:01:15.231 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:15.231 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:15.798 [main] NPS-Selenium-TestNG-Java - Network link is clicked!
+[INFO ] 2024-07-21 15:01:15.813 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
+[INFO ] 2024-07-21 15:01:15.813 [main] NPS-Selenium-TestNG-Java - Network page is opened!
+[INFO ] 2024-07-21 15:01:15.894 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:15.894 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:45.953 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:45.953 [main] NPS-Selenium-TestNG-Java - Novoproso main page opened!
+[INFO ] 2024-07-21 15:01:48.137 [main] NPS-Selenium-TestNG-Java - cookie button is closed!
+[INFO ] 2024-07-21 15:01:48.215 [main] NPS-Selenium-TestNG-Java - startNow button is clicked!
+[INFO ] 2024-07-21 15:01:48.877 [main] NPS-Selenium-TestNG-Java - navbar is displayed!
+[INFO ] 2024-07-21 15:01:49.526 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:01:49.660 [main] NPS-Selenium-TestNG-Java - About Us link is clicked!
+[INFO ] 2024-07-21 15:01:49.689 [main] NPS-Selenium-TestNG-Java - about us section is displayed!
+[INFO ] 2024-07-21 15:01:49.753 [main] NPS-Selenium-TestNG-Java - about us section heading is displayed!
+[INFO ] 2024-07-21 15:01:49.860 [main] NPS-Selenium-TestNG-Java - about us section styles checked!
+[INFO ] 2024-07-21 15:01:49.995 [main] NPS-Selenium-TestNG-Java - about us section content highlighted!
+[INFO ] 2024-07-21 15:01:50.125 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:01:50.252 [main] NPS-Selenium-TestNG-Java - Products link is clicked!
+[INFO ] 2024-07-21 15:01:50.287 [main] NPS-Selenium-TestNG-Java - products section is displayed!
+[INFO ] 2024-07-21 15:01:52.031 [main] NPS-Selenium-TestNG-Java - products section heading is displayed!
+[INFO ] 2024-07-21 15:01:52.065 [main] NPS-Selenium-TestNG-Java - products sub heading is displayed!
+[INFO ] 2024-07-21 15:01:52.078 [main] NPS-Selenium-TestNG-Java - total 2 products avaliable!
+[INFO ] 2024-07-21 15:01:54.436 [main] NPS-Selenium-TestNG-Java - Big Data Ingension readmore link is clicked!
+[INFO ] 2024-07-21 15:01:54.448 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/BDIngension.html
+[INFO ] 2024-07-21 15:01:54.448 [main] NPS-Selenium-TestNG-Java - Big Data Ingension page is opened!
+[INFO ] 2024-07-21 15:01:54.536 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:54.536 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:56.291 [main] NPS-Selenium-TestNG-Java - DAN readmore link is clicked!
+[INFO ] 2024-07-21 15:01:56.304 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/DAN.html
+[INFO ] 2024-07-21 15:01:56.304 [main] NPS-Selenium-TestNG-Java - DAN page is opened!
+[INFO ] 2024-07-21 15:01:56.365 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:01:56.365 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:01:56.383 [main] NPS-Selenium-TestNG-Java - each product content is displayed!
+[INFO ] 2024-07-21 15:01:57.011 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:01:57.133 [main] NPS-Selenium-TestNG-Java - Services link is clicked!
+[INFO ] 2024-07-21 15:01:57.181 [main] NPS-Selenium-TestNG-Java - Services section is displayed!
+[INFO ] 2024-07-21 15:01:58.492 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:01:58.526 [main] NPS-Selenium-TestNG-Java - Services section heading is displayed!
+[INFO ] 2024-07-21 15:01:58.540 [main] NPS-Selenium-TestNG-Java - total 9 Services avaliable!
+[INFO ] 2024-07-21 15:02:00.235 [main] NPS-Selenium-TestNG-Java - Your Idea readmore link is clicked!
+[INFO ] 2024-07-21 15:02:00.261 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/idea.html
+[INFO ] 2024-07-21 15:02:00.261 [main] NPS-Selenium-TestNG-Java - Your Idea page is opened!
+[INFO ] 2024-07-21 15:02:00.324 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:00.324 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:01.922 [main] NPS-Selenium-TestNG-Java - Software Development readmore link is clicked!
+[INFO ] 2024-07-21 15:02:01.938 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/sd.html
+[INFO ] 2024-07-21 15:02:01.938 [main] NPS-Selenium-TestNG-Java - Software Development page is opened!
+[INFO ] 2024-07-21 15:02:02.003 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:02.004 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:03.663 [main] NPS-Selenium-TestNG-Java - IT Staffing readmore link is clicked!
+[INFO ] 2024-07-21 15:02:03.681 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itstaff.html
+[INFO ] 2024-07-21 15:02:03.681 [main] NPS-Selenium-TestNG-Java - IT Staffing page is opened!
+[INFO ] 2024-07-21 15:02:03.751 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:03.751 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:05.429 [main] NPS-Selenium-TestNG-Java - Cloud Computing readmore link is clicked!
+[INFO ] 2024-07-21 15:02:05.442 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/cloud.html
+[INFO ] 2024-07-21 15:02:05.443 [main] NPS-Selenium-TestNG-Java - Cloud Computing page is opened!
+[INFO ] 2024-07-21 15:02:05.501 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:05.501 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:07.243 [main] NPS-Selenium-TestNG-Java - AI/ML readmore link is clicked!
+[INFO ] 2024-07-21 15:02:07.258 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/ai.html
+[INFO ] 2024-07-21 15:02:07.259 [main] NPS-Selenium-TestNG-Java - AI/ML page is opened!
+[INFO ] 2024-07-21 15:02:07.320 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:07.320 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:09.542 [main] NPS-Selenium-TestNG-Java - BigData Analytics readmore link is clicked!
+[INFO ] 2024-07-21 15:02:09.557 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/bigData.html
+[INFO ] 2024-07-21 15:02:09.557 [main] NPS-Selenium-TestNG-Java - BigData Analytics page is opened!
+[INFO ] 2024-07-21 15:02:09.625 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:09.625 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:11.290 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis readmore link is clicked!
+[INFO ] 2024-07-21 15:02:11.307 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/hra.html
+[INFO ] 2024-07-21 15:02:11.307 [main] NPS-Selenium-TestNG-Java - Healthcare Research & Analysis page is opened!
+[INFO ] 2024-07-21 15:02:11.371 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:11.371 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:13.054 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management readmore link is clicked!
+[INFO ] 2024-07-21 15:02:13.070 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/itpm.html
+[INFO ] 2024-07-21 15:02:13.070 [main] NPS-Selenium-TestNG-Java - IT Project/Program Management page is opened!
+[INFO ] 2024-07-21 15:02:13.136 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:13.136 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:14.933 [main] NPS-Selenium-TestNG-Java - IT Network & Security readmore link is clicked!
+[INFO ] 2024-07-21 15:02:14.947 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/network.html
+[INFO ] 2024-07-21 15:02:14.947 [main] NPS-Selenium-TestNG-Java - IT Network & Security page is opened!
+[INFO ] 2024-07-21 15:02:15.010 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:15.010 [main] NPS-Selenium-TestNG-Java - back to main page!
+[INFO ] 2024-07-21 15:02:15.027 [main] NPS-Selenium-TestNG-Java - each product content is displayed!
+[INFO ] 2024-07-21 15:02:15.686 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:02:15.862 [main] NPS-Selenium-TestNG-Java - Careers link is clicked!
+[INFO ] 2024-07-21 15:02:15.909 [main] NPS-Selenium-TestNG-Java - Careers section is displayed!
+[INFO ] 2024-07-21 15:02:16.564 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:02:16.600 [main] NPS-Selenium-TestNG-Java - Careers section heading is displayed!
+[INFO ] 2024-07-21 15:02:16.616 [main] NPS-Selenium-TestNG-Java - total 6 Services avaliable!
+[INFO ] 2024-07-21 15:02:18.861 [main] NPS-Selenium-TestNG-Java - Python-AI/ML Developer details link is clicked!
+[INFO ] 2024-07-21 15:02:21.822 [main] NPS-Selenium-TestNG-Java - PEGA Developer details link is clicked!
+[INFO ] 2024-07-21 15:02:23.570 [main] NPS-Selenium-TestNG-Java - Selenium Quality Analyst details link is clicked!
+[INFO ] 2024-07-21 15:02:25.310 [main] NPS-Selenium-TestNG-Java - Software Developer details link is clicked!
+[INFO ] 2024-07-21 15:02:27.002 [main] NPS-Selenium-TestNG-Java - Software Developer details link is clicked!
+[INFO ] 2024-07-21 15:02:28.723 [main] NPS-Selenium-TestNG-Java - Network Secuirty Engineer details link is clicked!
+[INFO ] 2024-07-21 15:02:28.956 [main] NPS-Selenium-TestNG-Java - each career content is displayed!
+[INFO ] 2024-07-21 15:02:29.599 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:02:29.724 [main] NPS-Selenium-TestNG-Java - contact us link is clicked!
+[INFO ] 2024-07-21 15:02:29.781 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
+[INFO ] 2024-07-21 15:02:29.863 [main] NPS-Selenium-TestNG-Java - contact us section is displayed!
+[INFO ] 2024-07-21 15:02:29.906 [main] NPS-Selenium-TestNG-Java - contact us sub heading is displayed!
+[INFO ] 2024-07-21 15:02:29.989 [main] NPS-Selenium-TestNG-Java - toggle button is clicked!
+[INFO ] 2024-07-21 15:02:31.092 [main] NPS-Selenium-TestNG-Java - contact us form and address block are displayed!
+[INFO ] 2024-07-21 15:02:31.183 [main] NPS-Selenium-TestNG-Java - contact us address is displayed!
+[INFO ] 2024-07-21 15:02:31.253 [main] NPS-Selenium-TestNG-Java - contact us number is displayed!
+[INFO ] 2024-07-21 15:02:31.300 [main] NPS-Selenium-TestNG-Java - contact us email address is displayed!
+[INFO ] 2024-07-21 15:02:31.328 [main] NPS-Selenium-TestNG-Java - go to map iframe!
+[INFO ] 2024-07-21 15:02:33.394 [main] NPS-Selenium-TestNG-Java - switched to map iframe!
+[INFO ] 2024-07-21 15:02:33.395 [main] NPS-Selenium-TestNG-Java - move by some offset!
+[INFO ] 2024-07-21 15:02:33.395 [main] NPS-Selenium-TestNG-Java - click and  hold then move by some offset!
+[INFO ] 2024-07-21 15:02:33.465 [main] NPS-Selenium-TestNG-Java - location address found!
+[INFO ] 2024-07-21 15:02:33.717 [main] NPS-Selenium-TestNG-Java - view larger map link clicked!
+[INFO ] 2024-07-21 15:02:41.569 [main] NPS-Selenium-TestNG-Java - https://www.google.com/maps/place/Novo+ProSo,+Inc./@38.773721,-93.718164,16z/data=!4m6!3m5!1s0x87c3e3c7a0f17e3f:0x473a9fd575ad87a5!8m2!3d38.773721!4d-93.7181643!16s%2Fg%2F11fl5qn7dn?hl=en&entry=ttu
+[INFO ] 2024-07-21 15:02:41.570 [main] NPS-Selenium-TestNG-Java - switched to map page
+[INFO ] 2024-07-21 15:02:41.638 [main] NPS-Selenium-TestNG-Java - closed map page
+[INFO ] 2024-07-21 15:02:41.658 [main] NPS-Selenium-TestNG-Java - https://novoproso.com/
+[INFO ] 2024-07-21 15:02:41.658 [main] NPS-Selenium-TestNG-Java - switched to main page
